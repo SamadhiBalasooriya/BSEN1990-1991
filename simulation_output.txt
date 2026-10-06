@@ -1,0 +1,5655 @@
+Loaded NEW modification-factor database.
+Available bands: ['1.25_to_4.60']
+Available damping values: [0.005, 0.01, 0.015, 0.02, 0.025, 0.03]
+Available densities: [0.0333, 0.1667, 0.3333, 0.5, 0.6667, 0.8333, 1.0]
+
+Database check
+--------------
+Test band: 1.25_to_4.60
+Test damping: 0.005
+Test bridge frequency: 1.25
+Test density: 0.0333
+Available keys: dict_keys(['t', 'modalpedmass_i', 'modification_factor', 'frf_ratio', 'psi_ratio_valid', 'f_eff_peak', 'f0_peak'])
+
+##########################################################################################
+RUNNING STRUCTURAL DAMPING = 0.0050
+##########################################################################################
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.000 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008586
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008586
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.788200
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.788200
+Residual correction lambda  = 0.631555
+Final factor chi_final      = 0.497792
+
+Peak 1-sec RMS
+  MC mean                   = 0.642986
+  Code prediction           = 1.291676
+  Simplified prediction     = 1.018099
+  Corrected prediction      = 0.642986
+  Code mean bias            = 0.497792
+  Simplified mean bias      = 0.631555
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.922146
+  Code prediction           = 1.823588
+  Simplified prediction     = 1.437353
+  Corrected prediction      = 0.907768
+  Code mean bias            = 0.505676
+  Simplified mean bias      = 0.641558
+  Corrected simplified bias = 1.015839
+
+95% absolute acceleration
+  MC mean                   = 0.702577
+  Code prediction           = 1.792618
+  Simplified prediction     = 1.412943
+  Corrected prediction      = 0.892351
+  Code mean bias            = 0.391928
+  Simplified mean bias      = 0.497244
+  Corrected simplified bias = 0.787333
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048443
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048443
+Mass ratio used in interpolation  = 0.048443
+Interpolated factor chi_0         = 0.458974
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.458974
+Residual correction lambda  = 1.103001
+Final factor chi_final      = 0.506249
+
+Peak 1-sec RMS
+  MC mean                   = 1.556615
+  Code prediction           = 3.074803
+  Simplified prediction     = 1.411254
+  Corrected prediction      = 1.556615
+  Code mean bias            = 0.506249
+  Simplified mean bias      = 1.103001
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.230188
+  Code prediction           = 4.341009
+  Simplified prediction     = 1.992410
+  Corrected prediction      = 2.197630
+  Code mean bias            = 0.513749
+  Simplified mean bias      = 1.119342
+  Corrected simplified bias = 1.014815
+
+95% absolute acceleration
+  MC mean                   = 1.628938
+  Code prediction           = 4.267285
+  Simplified prediction     = 1.958573
+  Corrected prediction      = 2.160307
+  Code mean bias            = 0.381727
+  Simplified mean bias      = 0.831696
+  Corrected simplified bias = 0.754031
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093544
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093544
+Mass ratio used in interpolation  = 0.093544
+Interpolated factor chi_0         = 0.322283
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.322283
+Residual correction lambda  = 1.245487
+Final factor chi_final      = 0.401399
+
+Peak 1-sec RMS
+  MC mean                   = 1.572499
+  Code prediction           = 3.917541
+  Simplified prediction     = 1.262557
+  Corrected prediction      = 1.572499
+  Code mean bias            = 0.401399
+  Simplified mean bias      = 1.245487
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.264612
+  Code prediction           = 5.530787
+  Simplified prediction     = 1.782479
+  Corrected prediction      = 2.220055
+  Code mean bias            = 0.409456
+  Simplified mean bias      = 1.270485
+  Corrected simplified bias = 1.020070
+
+95% absolute acceleration
+  MC mean                   = 1.572477
+  Code prediction           = 5.436858
+  Simplified prediction     = 1.752207
+  Corrected prediction      = 2.182352
+  Code mean bias            = 0.289225
+  Simplified mean bias      = 0.897426
+  Corrected simplified bias = 0.720542
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.138690
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.138690
+Mass ratio used in interpolation  = 0.138690
+Interpolated factor chi_0         = 0.262496
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.262496
+Residual correction lambda  = 1.367023
+Final factor chi_final      = 0.358838
+
+Peak 1-sec RMS
+  MC mean                   = 1.661768
+  Code prediction           = 4.630973
+  Simplified prediction     = 1.215611
+  Corrected prediction      = 1.661768
+  Code mean bias            = 0.358838
+  Simplified mean bias      = 1.367023
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.415306
+  Code prediction           = 6.538012
+  Simplified prediction     = 1.716200
+  Corrected prediction      = 2.346085
+  Code mean bias            = 0.369425
+  Simplified mean bias      = 1.407357
+  Corrected simplified bias = 1.029505
+
+95% absolute acceleration
+  MC mean                   = 1.662106
+  Code prediction           = 6.426977
+  Simplified prediction     = 1.687054
+  Corrected prediction      = 2.306241
+  Code mean bias            = 0.258614
+  Simplified mean bias      = 0.985212
+  Corrected simplified bias = 0.720699
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.168937
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.168937
+Mass ratio used in interpolation  = 0.168937
+Interpolated factor chi_0         = 0.238960
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.238960
+Residual correction lambda  = 1.358674
+Final factor chi_final      = 0.324668
+
+Peak 1-sec RMS
+  MC mean                   = 1.695426
+  Code prediction           = 5.222026
+  Simplified prediction     = 1.247854
+  Corrected prediction      = 1.695426
+  Code mean bias            = 0.324668
+  Simplified mean bias      = 1.358674
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.492238
+  Code prediction           = 7.372460
+  Simplified prediction     = 1.761721
+  Corrected prediction      = 2.393604
+  Code mean bias            = 0.338047
+  Simplified mean bias      = 1.414661
+  Corrected simplified bias = 1.041208
+
+95% absolute acceleration
+  MC mean                   = 1.755245
+  Code prediction           = 7.247254
+  Simplified prediction     = 1.731801
+  Corrected prediction      = 2.352953
+  Code mean bias            = 0.242195
+  Simplified mean bias      = 1.013537
+  Corrected simplified bias = 0.745975
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.229388
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.229388
+Mass ratio used in interpolation  = 0.229388
+Interpolated factor chi_0         = 0.205158
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.205158
+Residual correction lambda  = 1.354240
+Final factor chi_final      = 0.277833
+
+Peak 1-sec RMS
+  MC mean                   = 1.535417
+  Code prediction           = 5.526406
+  Simplified prediction     = 1.133785
+  Corrected prediction      = 1.535417
+  Code mean bias            = 0.277833
+  Simplified mean bias      = 1.354240
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.290947
+  Code prediction           = 7.802183
+  Simplified prediction     = 1.600679
+  Corrected prediction      = 2.167703
+  Code mean bias            = 0.293629
+  Simplified mean bias      = 1.431234
+  Corrected simplified bias = 1.056855
+
+95% absolute acceleration
+  MC mean                   = 1.563266
+  Code prediction           = 7.669679
+  Simplified prediction     = 1.573495
+  Corrected prediction      = 2.130889
+  Code mean bias            = 0.203824
+  Simplified mean bias      = 0.993500
+  Corrected simplified bias = 0.733622
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.276232
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.276232
+Mass ratio used in interpolation  = 0.276232
+Interpolated factor chi_0         = 0.183683
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.183683
+Residual correction lambda  = 0.581750
+Final factor chi_final      = 0.106858
+
+Peak 1-sec RMS
+  MC mean                   = 1.512626
+  Code prediction           = 14.155533
+  Simplified prediction     = 2.600128
+  Corrected prediction      = 1.512626
+  Code mean bias            = 0.106858
+  Simplified mean bias      = 0.581750
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.306225
+  Code prediction           = 19.984792
+  Simplified prediction     = 3.670863
+  Corrected prediction      = 2.135526
+  Code mean bias            = 0.115399
+  Simplified mean bias      = 0.628251
+  Corrected simplified bias = 1.079933
+
+95% absolute acceleration
+  MC mean                   = 1.578231
+  Code prediction           = 19.645391
+  Simplified prediction     = 3.608520
+  Corrected prediction      = 2.099258
+  Code mean bias            = 0.080336
+  Simplified mean bias      = 0.437362
+  Corrected simplified bias = 0.751804
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.100 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008556
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008556
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.784363
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.784363
+Residual correction lambda  = 0.685201
+Final factor chi_final      = 0.537446
+
+Peak 1-sec RMS
+  MC mean                   = 0.704952
+  Code prediction           = 1.311670
+  Simplified prediction     = 1.028825
+  Corrected prediction      = 0.704952
+  Code mean bias            = 0.537446
+  Simplified mean bias      = 0.685201
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.994110
+  Code prediction           = 1.814878
+  Simplified prediction     = 1.423524
+  Corrected prediction      = 0.975400
+  Code mean bias            = 0.547756
+  Simplified mean bias      = 0.698345
+  Corrected simplified bias = 1.019182
+
+95% absolute acceleration
+  MC mean                   = 0.788695
+  Code prediction           = 1.787099
+  Simplified prediction     = 1.401735
+  Corrected prediction      = 0.960470
+  Code mean bias            = 0.441327
+  Simplified mean bias      = 0.562657
+  Corrected simplified bias = 0.821156
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048267
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048267
+Mass ratio used in interpolation  = 0.048267
+Interpolated factor chi_0         = 0.465369
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.465369
+Residual correction lambda  = 1.652554
+Final factor chi_final      = 0.769048
+
+Peak 1-sec RMS
+  MC mean                   = 2.401275
+  Code prediction           = 3.122398
+  Simplified prediction     = 1.453069
+  Corrected prediction      = 2.401275
+  Code mean bias            = 0.769048
+  Simplified mean bias      = 1.652554
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.413404
+  Code prediction           = 4.320274
+  Simplified prediction     = 2.010524
+  Corrected prediction      = 3.322499
+  Code mean bias            = 0.790090
+  Simplified mean bias      = 1.697769
+  Corrected simplified bias = 1.027360
+
+95% absolute acceleration
+  MC mean                   = 2.640969
+  Code prediction           = 4.254146
+  Simplified prediction     = 1.979750
+  Corrected prediction      = 3.271644
+  Code mean bias            = 0.620799
+  Simplified mean bias      = 1.333991
+  Corrected simplified bias = 0.807230
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093548
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093548
+Mass ratio used in interpolation  = 0.093548
+Interpolated factor chi_0         = 0.321999
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.321999
+Residual correction lambda  = 1.995315
+Final factor chi_final      = 0.642490
+
+Peak 1-sec RMS
+  MC mean                   = 2.555933
+  Code prediction           = 3.978167
+  Simplified prediction     = 1.280967
+  Corrected prediction      = 2.555933
+  Code mean bias            = 0.642490
+  Simplified mean bias      = 1.995315
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.636076
+  Code prediction           = 5.504350
+  Simplified prediction     = 1.772397
+  Corrected prediction      = 3.536491
+  Code mean bias            = 0.660582
+  Simplified mean bias      = 2.051502
+  Corrected simplified bias = 1.028159
+
+95% absolute acceleration
+  MC mean                   = 2.767498
+  Code prediction           = 5.420098
+  Simplified prediction     = 1.745268
+  Corrected prediction      = 3.482360
+  Code mean bias            = 0.510599
+  Simplified mean bias      = 1.585715
+  Corrected simplified bias = 0.794719
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.139875
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.139875
+Mass ratio used in interpolation  = 0.139875
+Interpolated factor chi_0         = 0.259020
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.259020
+Residual correction lambda  = 2.075527
+Final factor chi_final      = 0.537603
+
+Peak 1-sec RMS
+  MC mean                   = 2.525532
+  Code prediction           = 4.697767
+  Simplified prediction     = 1.216815
+  Corrected prediction      = 2.525532
+  Code mean bias            = 0.537603
+  Simplified mean bias      = 2.075527
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.608566
+  Code prediction           = 6.500017
+  Simplified prediction     = 1.683634
+  Corrected prediction      = 3.494426
+  Code mean bias            = 0.555162
+  Simplified mean bias      = 2.143320
+  Corrected simplified bias = 1.032663
+
+95% absolute acceleration
+  MC mean                   = 2.628391
+  Code prediction           = 6.400525
+  Simplified prediction     = 1.657863
+  Corrected prediction      = 3.440939
+  Code mean bias            = 0.410652
+  Simplified mean bias      = 1.585409
+  Corrected simplified bias = 0.763859
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.197467
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.197467
+Mass ratio used in interpolation  = 0.197467
+Interpolated factor chi_0         = 0.218821
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.218821
+Residual correction lambda  = 1.988578
+Final factor chi_final      = 0.435142
+
+Peak 1-sec RMS
+  MC mean                   = 2.252522
+  Code prediction           = 5.176519
+  Simplified prediction     = 1.132730
+  Corrected prediction      = 2.252522
+  Code mean bias            = 0.435142
+  Simplified mean bias      = 1.988578
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.258112
+  Code prediction           = 7.162437
+  Simplified prediction     = 1.567290
+  Corrected prediction      = 3.116679
+  Code mean bias            = 0.454889
+  Simplified mean bias      = 2.078819
+  Corrected simplified bias = 1.045379
+
+95% absolute acceleration
+  MC mean                   = 2.416282
+  Code prediction           = 7.052806
+  Simplified prediction     = 1.543301
+  Corrected prediction      = 3.068974
+  Code mean bias            = 0.342599
+  Simplified mean bias      = 1.565659
+  Corrected simplified bias = 0.787326
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.240745
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.240745
+Mass ratio used in interpolation  = 0.240745
+Interpolated factor chi_0         = 0.201081
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.201081
+Residual correction lambda  = 1.879266
+Final factor chi_final      = 0.377885
+
+Peak 1-sec RMS
+  MC mean                   = 2.101263
+  Code prediction           = 5.560582
+  Simplified prediction     = 1.118129
+  Corrected prediction      = 2.101263
+  Code mean bias            = 0.377885
+  Simplified mean bias      = 1.879266
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.073437
+  Code prediction           = 7.693842
+  Simplified prediction     = 1.547088
+  Corrected prediction      = 2.907391
+  Code mean bias            = 0.399467
+  Simplified mean bias      = 1.986595
+  Corrected simplified bias = 1.057112
+
+95% absolute acceleration
+  MC mean                   = 2.219629
+  Code prediction           = 7.576077
+  Simplified prediction     = 1.523408
+  Corrected prediction      = 2.862889
+  Code mean bias            = 0.292979
+  Simplified mean bias      = 1.457016
+  Corrected simplified bias = 0.775311
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.280833
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.100000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.280833
+Mass ratio used in interpolation  = 0.280833
+Interpolated factor chi_0         = 0.189294
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.189294
+Residual correction lambda  = 0.738638
+Final factor chi_final      = 0.139820
+
+Peak 1-sec RMS
+  MC mean                   = 2.002636
+  Code prediction           = 14.323007
+  Simplified prediction     = 2.711257
+  Corrected prediction      = 2.002636
+  Code mean bias            = 0.139820
+  Simplified mean bias      = 0.738638
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.954830
+  Code prediction           = 19.817882
+  Simplified prediction     = 3.751403
+  Corrected prediction      = 2.770927
+  Code mean bias            = 0.149099
+  Simplified mean bias      = 0.787660
+  Corrected simplified bias = 1.066369
+
+95% absolute acceleration
+  MC mean                   = 2.098271
+  Code prediction           = 19.514542
+  Simplified prediction     = 3.693983
+  Corrected prediction      = 2.728514
+  Code mean bias            = 0.107523
+  Simplified mean bias      = 0.568024
+  Corrected simplified bias = 0.769016
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.200 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008564
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008564
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.856571
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.856571
+Residual correction lambda  = 1.097988
+Final factor chi_final      = 0.940504
+
+Peak 1-sec RMS
+  MC mean                   = 0.619366
+  Code prediction           = 0.658547
+  Simplified prediction     = 0.564092
+  Corrected prediction      = 0.619366
+  Code mean bias            = 0.940504
+  Simplified mean bias      = 1.097988
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.866259
+  Code prediction           = 0.900753
+  Simplified prediction     = 0.771558
+  Corrected prediction      = 0.847162
+  Code mean bias            = 0.961706
+  Simplified mean bias      = 1.122739
+  Corrected simplified bias = 1.022543
+
+95% absolute acceleration
+  MC mean                   = 0.685523
+  Code prediction           = 0.889180
+  Simplified prediction     = 0.761645
+  Corrected prediction      = 0.836277
+  Code mean bias            = 0.770961
+  Simplified mean bias      = 0.900055
+  Corrected simplified bias = 0.819731
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048820
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048820
+Mass ratio used in interpolation  = 0.048820
+Interpolated factor chi_0         = 0.678299
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.678299
+Residual correction lambda  = 1.320620
+Final factor chi_final      = 0.895775
+
+Peak 1-sec RMS
+  MC mean                   = 1.404267
+  Code prediction           = 1.567656
+  Simplified prediction     = 1.063339
+  Corrected prediction      = 1.404267
+  Code mean bias            = 0.895775
+  Simplified mean bias      = 1.320620
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.996013
+  Code prediction           = 2.144220
+  Simplified prediction     = 1.454422
+  Corrected prediction      = 1.920738
+  Code mean bias            = 0.930881
+  Simplified mean bias      = 1.372376
+  Corrected simplified bias = 1.039190
+
+95% absolute acceleration
+  MC mean                   = 1.352599
+  Code prediction           = 2.116671
+  Simplified prediction     = 1.435735
+  Corrected prediction      = 1.896061
+  Code mean bias            = 0.639022
+  Simplified mean bias      = 0.942095
+  Corrected simplified bias = 0.713373
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.092998
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.092998
+Mass ratio used in interpolation  = 0.092998
+Interpolated factor chi_0         = 0.592265
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.592265
+Residual correction lambda  = 2.036245
+Final factor chi_final      = 1.205996
+
+Peak 1-sec RMS
+  MC mean                   = 2.409960
+  Code prediction           = 1.998315
+  Simplified prediction     = 1.183531
+  Corrected prediction      = 2.409960
+  Code mean bias            = 1.205996
+  Simplified mean bias      = 2.036245
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.450575
+  Code prediction           = 2.733270
+  Simplified prediction     = 1.618820
+  Corrected prediction      = 3.296314
+  Code mean bias            = 1.262435
+  Simplified mean bias      = 2.131538
+  Corrected simplified bias = 1.046798
+
+95% absolute acceleration
+  MC mean                   = 2.565763
+  Code prediction           = 2.698153
+  Simplified prediction     = 1.598021
+  Corrected prediction      = 3.253963
+  Code mean bias            = 0.950933
+  Simplified mean bias      = 1.605588
+  Corrected simplified bias = 0.788504
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.139852
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.139852
+Mass ratio used in interpolation  = 0.139852
+Interpolated factor chi_0         = 0.492480
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.492480
+Residual correction lambda  = 2.505886
+Final factor chi_final      = 1.234099
+
+Peak 1-sec RMS
+  MC mean                   = 2.910802
+  Code prediction           = 2.358646
+  Simplified prediction     = 1.161586
+  Corrected prediction      = 2.910802
+  Code mean bias            = 1.234099
+  Simplified mean bias      = 2.505886
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 4.147189
+  Code prediction           = 3.226127
+  Simplified prediction     = 1.588803
+  Corrected prediction      = 3.981359
+  Code mean bias            = 1.285501
+  Simplified mean bias      = 2.610260
+  Corrected simplified bias = 1.041652
+
+95% absolute acceleration
+  MC mean                   = 3.183181
+  Code prediction           = 3.184678
+  Simplified prediction     = 1.568390
+  Corrected prediction      = 3.930206
+  Code mean bias            = 0.999530
+  Simplified mean bias      = 2.029585
+  Corrected simplified bias = 0.809927
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.169002
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.169002
+Mass ratio used in interpolation  = 0.169002
+Interpolated factor chi_0         = 0.449874
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.449874
+Residual correction lambda  = 2.367339
+Final factor chi_final      = 1.065004
+
+Peak 1-sec RMS
+  MC mean                   = 2.835304
+  Code prediction           = 2.662247
+  Simplified prediction     = 1.197675
+  Corrected prediction      = 2.835304
+  Code mean bias            = 1.065004
+  Simplified mean bias      = 2.367339
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 4.059692
+  Code prediction           = 3.641389
+  Simplified prediction     = 1.638166
+  Corrected prediction      = 3.878093
+  Code mean bias            = 1.114875
+  Simplified mean bias      = 2.478194
+  Corrected simplified bias = 1.046827
+
+95% absolute acceleration
+  MC mean                   = 3.042559
+  Code prediction           = 3.594604
+  Simplified prediction     = 1.617118
+  Corrected prediction      = 3.828268
+  Code mean bias            = 0.846424
+  Simplified mean bias      = 1.881469
+  Corrected simplified bias = 0.794761
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.222411
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.222411
+Mass ratio used in interpolation  = 0.222411
+Interpolated factor chi_0         = 0.396444
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.396444
+Residual correction lambda  = 2.326156
+Final factor chi_final      = 0.922190
+
+Peak 1-sec RMS
+  MC mean                   = 2.613174
+  Code prediction           = 2.833661
+  Simplified prediction     = 1.123387
+  Corrected prediction      = 2.613174
+  Code mean bias            = 0.922190
+  Simplified mean bias      = 2.326156
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.765595
+  Code prediction           = 3.875847
+  Simplified prediction     = 1.536555
+  Corrected prediction      = 3.574267
+  Code mean bias            = 0.971554
+  Simplified mean bias      = 2.450673
+  Corrected simplified bias = 1.053529
+
+95% absolute acceleration
+  MC mean                   = 2.843096
+  Code prediction           = 3.826050
+  Simplified prediction     = 1.516814
+  Corrected prediction      = 3.528345
+  Code mean bias            = 0.743089
+  Simplified mean bias      = 1.874387
+  Corrected simplified bias = 0.805787
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.280275
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.200000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.280275
+Mass ratio used in interpolation  = 0.280275
+Interpolated factor chi_0         = 0.361612
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.361612
+Residual correction lambda  = 0.940741
+Final factor chi_final      = 0.340183
+
+Peak 1-sec RMS
+  MC mean                   = 2.447366
+  Code prediction           = 7.194259
+  Simplified prediction     = 2.601531
+  Corrected prediction      = 2.447366
+  Code mean bias            = 0.340183
+  Simplified mean bias      = 0.940741
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.574892
+  Code prediction           = 9.840218
+  Simplified prediction     = 3.558342
+  Corrected prediction      = 3.347477
+  Code mean bias            = 0.363294
+  Simplified mean bias      = 1.004651
+  Corrected simplified bias = 1.067936
+
+95% absolute acceleration
+  MC mean                   = 2.547367
+  Code prediction           = 9.713791
+  Simplified prediction     = 3.512625
+  Corrected prediction      = 3.304469
+  Code mean bias            = 0.262242
+  Simplified mean bias      = 0.725203
+  Corrected simplified bias = 0.770885
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.300 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008627
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008627
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.772810
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.772810
+Residual correction lambda  = 1.211958
+Final factor chi_final      = 0.936613
+
+Peak 1-sec RMS
+  MC mean                   = 0.305454
+  Code prediction           = 0.326126
+  Simplified prediction     = 0.252034
+  Corrected prediction      = 0.305454
+  Code mean bias            = 0.936613
+  Simplified mean bias      = 1.211958
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.434993
+  Code prediction           = 0.446690
+  Simplified prediction     = 0.345207
+  Corrected prediction      = 0.418376
+  Code mean bias            = 0.973813
+  Simplified mean bias      = 1.260094
+  Corrected simplified bias = 1.039718
+
+95% absolute acceleration
+  MC mean                   = 0.327458
+  Code prediction           = 0.441594
+  Simplified prediction     = 0.341268
+  Corrected prediction      = 0.413603
+  Code mean bias            = 0.741537
+  Simplified mean bias      = 0.959533
+  Corrected simplified bias = 0.791721
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048387
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048387
+Mass ratio used in interpolation  = 0.048387
+Interpolated factor chi_0         = 0.585454
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.585454
+Residual correction lambda  = 2.270735
+Final factor chi_final      = 1.329411
+
+Peak 1-sec RMS
+  MC mean                   = 1.032069
+  Code prediction           = 0.776335
+  Simplified prediction     = 0.454509
+  Corrected prediction      = 1.032069
+  Code mean bias            = 1.329411
+  Simplified mean bias      = 2.270735
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.469970
+  Code prediction           = 1.063335
+  Simplified prediction     = 0.622534
+  Corrected prediction      = 1.413609
+  Code mean bias            = 1.382415
+  Simplified mean bias      = 2.361270
+  Corrected simplified bias = 1.039870
+
+95% absolute acceleration
+  MC mean                   = 0.970409
+  Code prediction           = 1.051204
+  Simplified prediction     = 0.615432
+  Corrected prediction      = 1.397482
+  Code mean bias            = 0.923141
+  Simplified mean bias      = 1.576794
+  Corrected simplified bias = 0.694398
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.090715
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.090715
+Mass ratio used in interpolation  = 0.090715
+Interpolated factor chi_0         = 0.628390
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.628390
+Residual correction lambda  = 2.472934
+Final factor chi_final      = 1.553968
+
+Peak 1-sec RMS
+  MC mean                   = 1.541034
+  Code prediction           = 0.991677
+  Simplified prediction     = 0.623160
+  Corrected prediction      = 1.541034
+  Code mean bias            = 1.553968
+  Simplified mean bias      = 2.472934
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.206136
+  Code prediction           = 1.358286
+  Simplified prediction     = 0.853533
+  Corrected prediction      = 2.110732
+  Code mean bias            = 1.624206
+  Simplified mean bias      = 2.584709
+  Corrected simplified bias = 1.045200
+
+95% absolute acceleration
+  MC mean                   = 1.470645
+  Code prediction           = 1.342790
+  Simplified prediction     = 0.843796
+  Corrected prediction      = 2.086652
+  Code mean bias            = 1.095216
+  Simplified mean bias      = 1.742891
+  Corrected simplified bias = 0.704787
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.137376
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.137376
+Mass ratio used in interpolation  = 0.137376
+Interpolated factor chi_0         = 0.628934
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.628934
+Residual correction lambda  = 3.478917
+Final factor chi_final      = 2.188010
+
+Peak 1-sec RMS
+  MC mean                   = 2.561268
+  Code prediction           = 1.170592
+  Simplified prediction     = 0.736226
+  Corrected prediction      = 2.561268
+  Code mean bias            = 2.188010
+  Simplified mean bias      = 3.478917
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.695629
+  Code prediction           = 1.603343
+  Simplified prediction     = 1.008397
+  Corrected prediction      = 3.508130
+  Code mean bias            = 2.304953
+  Simplified mean bias      = 3.664855
+  Corrected simplified bias = 1.053447
+
+95% absolute acceleration
+  MC mean                   = 2.732434
+  Code prediction           = 1.585051
+  Simplified prediction     = 0.996893
+  Corrected prediction      = 3.468108
+  Code mean bias            = 1.723878
+  Simplified mean bias      = 2.740951
+  Corrected simplified bias = 0.787875
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.193890
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.193890
+Mass ratio used in interpolation  = 0.193890
+Interpolated factor chi_0         = 0.559844
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.559844
+Residual correction lambda  = 4.017739
+Final factor chi_final      = 2.249306
+
+Peak 1-sec RMS
+  MC mean                   = 2.903665
+  Code prediction           = 1.290916
+  Simplified prediction     = 0.722711
+  Corrected prediction      = 2.903665
+  Code mean bias            = 2.249306
+  Simplified mean bias      = 4.017739
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 4.198021
+  Code prediction           = 1.768148
+  Simplified prediction     = 0.989887
+  Corrected prediction      = 3.977106
+  Code mean bias            = 2.374248
+  Simplified mean bias      = 4.240912
+  Corrected simplified bias = 1.055547
+
+95% absolute acceleration
+  MC mean                   = 3.110937
+  Code prediction           = 1.747976
+  Simplified prediction     = 0.978594
+  Corrected prediction      = 3.931733
+  Code mean bias            = 1.779737
+  Simplified mean bias      = 3.178988
+  Corrected simplified bias = 0.791238
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.232384
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.232384
+Mass ratio used in interpolation  = 0.232384
+Interpolated factor chi_0         = 0.520074
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.520074
+Residual correction lambda  = 3.646182
+Final factor chi_final      = 1.896283
+
+Peak 1-sec RMS
+  MC mean                   = 2.639496
+  Code prediction           = 1.391931
+  Simplified prediction     = 0.723907
+  Corrected prediction      = 2.639496
+  Code mean bias            = 1.896283
+  Simplified mean bias      = 3.646182
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.793750
+  Code prediction           = 1.906507
+  Simplified prediction     = 0.991524
+  Corrected prediction      = 3.615278
+  Code mean bias            = 1.989895
+  Simplified mean bias      = 3.826180
+  Corrected simplified bias = 1.049366
+
+95% absolute acceleration
+  MC mean                   = 2.717881
+  Code prediction           = 1.884757
+  Simplified prediction     = 0.980213
+  Corrected prediction      = 3.574034
+  Code mean bias            = 1.442033
+  Simplified mean bias      = 2.772747
+  Corrected simplified bias = 0.760452
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.297514
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.300000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.297514
+Mass ratio used in interpolation  = 0.290000
+Interpolated factor chi_0         = 0.477791
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.477791
+Residual correction lambda  = 1.591755
+Final factor chi_final      = 0.760526
+
+Peak 1-sec RMS
+  MC mean                   = 2.673558
+  Code prediction           = 3.515409
+  Simplified prediction     = 1.679630
+  Corrected prediction      = 2.673558
+  Code mean bias            = 0.760526
+  Simplified mean bias      = 1.591755
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.856145
+  Code prediction           = 4.815002
+  Simplified prediction     = 2.300563
+  Corrected prediction      = 3.661933
+  Code mean bias            = 0.800861
+  Simplified mean bias      = 1.676174
+  Corrected simplified bias = 1.053036
+
+95% absolute acceleration
+  MC mean                   = 2.891318
+  Code prediction           = 4.760071
+  Simplified prediction     = 2.274318
+  Corrected prediction      = 3.620156
+  Code mean bias            = 0.607411
+  Simplified mean bias      = 1.271291
+  Corrected simplified bias = 0.798672
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.400 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008569
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008569
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.606899
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.606899
+Residual correction lambda  = 1.253922
+Final factor chi_final      = 0.761004
+
+Peak 1-sec RMS
+  MC mean                   = 0.242836
+  Code prediction           = 0.319100
+  Simplified prediction     = 0.193661
+  Corrected prediction      = 0.242836
+  Code mean bias            = 0.761004
+  Simplified mean bias      = 1.253922
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.350816
+  Code prediction           = 0.442680
+  Simplified prediction     = 0.268662
+  Corrected prediction      = 0.336882
+  Code mean bias            = 0.792481
+  Simplified mean bias      = 1.305787
+  Corrected simplified bias = 1.041362
+
+95% absolute acceleration
+  MC mean                   = 0.261834
+  Code prediction           = 0.438208
+  Simplified prediction     = 0.265948
+  Corrected prediction      = 0.333478
+  Code mean bias            = 0.597510
+  Simplified mean bias      = 0.984529
+  Corrected simplified bias = 0.785160
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048824
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048824
+Mass ratio used in interpolation  = 0.048824
+Interpolated factor chi_0         = 0.278185
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.278185
+Residual correction lambda  = 3.345772
+Final factor chi_final      = 0.930745
+
+Peak 1-sec RMS
+  MC mean                   = 0.707003
+  Code prediction           = 0.759610
+  Simplified prediction     = 0.211312
+  Corrected prediction      = 0.707003
+  Code mean bias            = 0.930745
+  Simplified mean bias      = 3.345772
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.018046
+  Code prediction           = 1.053790
+  Simplified prediction     = 0.293149
+  Corrected prediction      = 0.980810
+  Code mean bias            = 0.966080
+  Simplified mean bias      = 3.472793
+  Corrected simplified bias = 1.037965
+
+95% absolute acceleration
+  MC mean                   = 0.652655
+  Code prediction           = 1.043144
+  Simplified prediction     = 0.290187
+  Corrected prediction      = 0.970901
+  Code mean bias            = 0.625661
+  Simplified mean bias      = 2.249081
+  Corrected simplified bias = 0.672216
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.092556
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.092556
+Mass ratio used in interpolation  = 0.092556
+Interpolated factor chi_0         = 0.293552
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.293552
+Residual correction lambda  = 4.172675
+Final factor chi_final      = 1.224898
+
+Peak 1-sec RMS
+  MC mean                   = 1.186531
+  Code prediction           = 0.968678
+  Simplified prediction     = 0.284357
+  Corrected prediction      = 1.186531
+  Code mean bias            = 1.224898
+  Simplified mean bias      = 4.172675
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.705898
+  Code prediction           = 1.343826
+  Simplified prediction     = 0.394483
+  Corrected prediction      = 1.646049
+  Code mean bias            = 1.269434
+  Simplified mean bias      = 4.324389
+  Corrected simplified bias = 1.036359
+
+95% absolute acceleration
+  MC mean                   = 1.072879
+  Code prediction           = 1.330249
+  Simplified prediction     = 0.390497
+  Corrected prediction      = 1.629419
+  Code mean bias            = 0.806525
+  Simplified mean bias      = 2.747467
+  Corrected simplified bias = 0.658443
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.130721
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.130721
+Mass ratio used in interpolation  = 0.130721
+Interpolated factor chi_0         = 0.380038
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.380038
+Residual correction lambda  = 4.008474
+Final factor chi_final      = 1.523373
+
+Peak 1-sec RMS
+  MC mean                   = 1.755100
+  Code prediction           = 1.152115
+  Simplified prediction     = 0.437848
+  Corrected prediction      = 1.755100
+  Code mean bias            = 1.523373
+  Simplified mean bias      = 4.008474
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.545315
+  Code prediction           = 1.598304
+  Simplified prediction     = 0.607416
+  Corrected prediction      = 2.434813
+  Code mean bias            = 1.592510
+  Simplified mean bias      = 4.190395
+  Corrected simplified bias = 1.045384
+
+95% absolute acceleration
+  MC mean                   = 1.733280
+  Code prediction           = 1.582156
+  Simplified prediction     = 0.601280
+  Corrected prediction      = 2.410214
+  Code mean bias            = 1.095518
+  Simplified mean bias      = 2.882652
+  Corrected simplified bias = 0.719140
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.188325
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.188325
+Mass ratio used in interpolation  = 0.188325
+Interpolated factor chi_0         = 0.443330
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.443330
+Residual correction lambda  = 4.224785
+Final factor chi_final      = 1.872975
+
+Peak 1-sec RMS
+  MC mean                   = 2.376841
+  Code prediction           = 1.269019
+  Simplified prediction     = 0.562595
+  Corrected prediction      = 2.376841
+  Code mean bias            = 1.872975
+  Simplified mean bias      = 4.224785
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.438636
+  Code prediction           = 1.760483
+  Simplified prediction     = 0.780475
+  Corrected prediction      = 3.297340
+  Code mean bias            = 1.953234
+  Simplified mean bias      = 4.405822
+  Corrected simplified bias = 1.042851
+
+95% absolute acceleration
+  MC mean                   = 2.448806
+  Code prediction           = 1.742697
+  Simplified prediction     = 0.772590
+  Corrected prediction      = 3.264027
+  Code mean bias            = 1.405182
+  Simplified mean bias      = 3.169606
+  Corrected simplified bias = 0.750241
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.243739
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.243739
+Mass ratio used in interpolation  = 0.243739
+Interpolated factor chi_0         = 0.434540
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.434540
+Residual correction lambda  = 4.440341
+Final factor chi_final      = 1.929506
+
+Peak 1-sec RMS
+  MC mean                   = 2.603887
+  Code prediction           = 1.349510
+  Simplified prediction     = 0.586416
+  Corrected prediction      = 2.603887
+  Code mean bias            = 1.929506
+  Simplified mean bias      = 4.440341
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.775246
+  Code prediction           = 1.872146
+  Simplified prediction     = 0.813522
+  Corrected prediction      = 3.612317
+  Code mean bias            = 2.016534
+  Simplified mean bias      = 4.640617
+  Corrected simplified bias = 1.045104
+
+95% absolute acceleration
+  MC mean                   = 2.774718
+  Code prediction           = 1.853231
+  Simplified prediction     = 0.805303
+  Corrected prediction      = 3.575822
+  Code mean bias            = 1.497233
+  Simplified mean bias      = 3.445556
+  Corrected simplified bias = 0.775967
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.282759
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.400000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.282759
+Mass ratio used in interpolation  = 0.282759
+Interpolated factor chi_0         = 0.414499
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.414499
+Residual correction lambda  = 2.053219
+Final factor chi_final      = 0.851058
+
+Peak 1-sec RMS
+  MC mean                   = 2.961032
+  Code prediction           = 3.479236
+  Simplified prediction     = 1.442141
+  Corrected prediction      = 2.961032
+  Code mean bias            = 0.851058
+  Simplified mean bias      = 2.053219
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 4.287808
+  Code prediction           = 4.826669
+  Simplified prediction     = 2.000651
+  Corrected prediction      = 4.107775
+  Code mean bias            = 0.888358
+  Simplified mean bias      = 2.143206
+  Corrected simplified bias = 1.043827
+
+95% absolute acceleration
+  MC mean                   = 3.202239
+  Code prediction           = 4.777905
+  Simplified prediction     = 1.980439
+  Corrected prediction      = 4.066275
+  Code mean bias            = 0.670218
+  Simplified mean bias      = 1.616934
+  Corrected simplified bias = 0.787512
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.500 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008555
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008555
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.557137
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.557137
+Residual correction lambda  = 0.732273
+Final factor chi_final      = 0.407976
+
+Peak 1-sec RMS
+  MC mean                   = 0.126466
+  Code prediction           = 0.309984
+  Simplified prediction     = 0.172703
+  Corrected prediction      = 0.126466
+  Code mean bias            = 0.407976
+  Simplified mean bias      = 0.732273
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.189692
+  Code prediction           = 0.437371
+  Simplified prediction     = 0.243676
+  Corrected prediction      = 0.178437
+  Code mean bias            = 0.433709
+  Simplified mean bias      = 0.778460
+  Corrected simplified bias = 1.063075
+
+95% absolute acceleration
+  MC mean                   = 0.131004
+  Code prediction           = 0.435848
+  Simplified prediction     = 0.242827
+  Corrected prediction      = 0.177816
+  Code mean bias            = 0.300572
+  Simplified mean bias      = 0.539493
+  Corrected simplified bias = 0.736738
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048534
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048534
+Mass ratio used in interpolation  = 0.048534
+Interpolated factor chi_0         = 0.240045
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.240045
+Residual correction lambda  = 2.999702
+Final factor chi_final      = 0.720064
+
+Peak 1-sec RMS
+  MC mean                   = 0.531342
+  Code prediction           = 0.737909
+  Simplified prediction     = 0.177132
+  Corrected prediction      = 0.531342
+  Code mean bias            = 0.720064
+  Simplified mean bias      = 2.999702
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.780280
+  Code prediction           = 1.041152
+  Simplified prediction     = 0.249923
+  Corrected prediction      = 0.749696
+  Code mean bias            = 0.749440
+  Simplified mean bias      = 3.122077
+  Corrected simplified bias = 1.040796
+
+95% absolute acceleration
+  MC mean                   = 0.475158
+  Code prediction           = 1.037527
+  Simplified prediction     = 0.249053
+  Corrected prediction      = 0.747086
+  Code mean bias            = 0.457971
+  Simplified mean bias      = 1.907855
+  Corrected simplified bias = 0.636015
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093681
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093681
+Mass ratio used in interpolation  = 0.093681
+Interpolated factor chi_0         = 0.149104
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.149104
+Residual correction lambda  = 6.446198
+Final factor chi_final      = 0.961153
+
+Peak 1-sec RMS
+  MC mean                   = 0.903519
+  Code prediction           = 0.940037
+  Simplified prediction     = 0.140163
+  Corrected prediction      = 0.903519
+  Code mean bias            = 0.961153
+  Simplified mean bias      = 6.446198
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.319195
+  Code prediction           = 1.326343
+  Simplified prediction     = 0.197763
+  Corrected prediction      = 1.274818
+  Code mean bias            = 0.994611
+  Simplified mean bias      = 6.670592
+  Corrected simplified bias = 1.034810
+
+95% absolute acceleration
+  MC mean                   = 0.784027
+  Code prediction           = 1.321725
+  Simplified prediction     = 0.197074
+  Corrected prediction      = 1.270380
+  Code mean bias            = 0.593185
+  Simplified mean bias      = 3.978334
+  Corrected simplified bias = 0.617160
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.139909
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.139909
+Mass ratio used in interpolation  = 0.139909
+Interpolated factor chi_0         = 0.184379
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.184379
+Residual correction lambda  = 6.796238
+Final factor chi_final      = 1.253083
+
+Peak 1-sec RMS
+  MC mean                   = 1.391147
+  Code prediction           = 1.110179
+  Simplified prediction     = 0.204694
+  Corrected prediction      = 1.391147
+  Code mean bias            = 1.253083
+  Simplified mean bias      = 6.796238
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.035226
+  Code prediction           = 1.566406
+  Simplified prediction     = 0.288812
+  Corrected prediction      = 1.962837
+  Code mean bias            = 1.299297
+  Simplified mean bias      = 7.046884
+  Corrected simplified bias = 1.036880
+
+95% absolute acceleration
+  MC mean                   = 1.310884
+  Code prediction           = 1.560952
+  Simplified prediction     = 0.287807
+  Corrected prediction      = 1.956003
+  Code mean bias            = 0.839798
+  Simplified mean bias      = 4.554737
+  Corrected simplified bias = 0.670185
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.186417
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.186417
+Mass ratio used in interpolation  = 0.186417
+Interpolated factor chi_0         = 0.267518
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.267518
+Residual correction lambda  = 5.775575
+Final factor chi_final      = 1.545072
+
+Peak 1-sec RMS
+  MC mean                   = 1.907774
+  Code prediction           = 1.234748
+  Simplified prediction     = 0.330318
+  Corrected prediction      = 1.907774
+  Code mean bias            = 1.545072
+  Simplified mean bias      = 5.775575
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.795814
+  Code prediction           = 1.742165
+  Simplified prediction     = 0.466061
+  Corrected prediction      = 2.691770
+  Code mean bias            = 1.604793
+  Simplified mean bias      = 5.998815
+  Corrected simplified bias = 1.038653
+
+95% absolute acceleration
+  MC mean                   = 1.957778
+  Code prediction           = 1.736099
+  Simplified prediction     = 0.464438
+  Corrected prediction      = 2.682398
+  Code mean bias            = 1.127688
+  Simplified mean bias      = 4.215367
+  Corrected simplified bias = 0.729861
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.248201
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.248201
+Mass ratio used in interpolation  = 0.248201
+Interpolated factor chi_0         = 0.338901
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.338901
+Residual correction lambda  = 4.925082
+Final factor chi_final      = 1.669116
+
+Peak 1-sec RMS
+  MC mean                   = 2.180316
+  Code prediction           = 1.306270
+  Simplified prediction     = 0.442696
+  Corrected prediction      = 2.180316
+  Code mean bias            = 1.669116
+  Simplified mean bias      = 4.925082
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.180837
+  Code prediction           = 1.843079
+  Simplified prediction     = 0.624622
+  Corrected prediction      = 3.076313
+  Code mean bias            = 1.725827
+  Simplified mean bias      = 5.092421
+  Corrected simplified bias = 1.033977
+
+95% absolute acceleration
+  MC mean                   = 2.293283
+  Code prediction           = 1.836662
+  Simplified prediction     = 0.622447
+  Corrected prediction      = 3.065602
+  Code mean bias            = 1.248615
+  Simplified mean bias      = 3.684303
+  Corrected simplified bias = 0.748069
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.266576
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.266576
+Mass ratio used in interpolation  = 0.266576
+Interpolated factor chi_0         = 0.343587
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.343587
+Residual correction lambda  = 2.116924
+Final factor chi_final      = 0.727348
+
+Peak 1-sec RMS
+  MC mean                   = 2.489730
+  Code prediction           = 3.423026
+  Simplified prediction     = 1.176107
+  Corrected prediction      = 2.489730
+  Code mean bias            = 0.727348
+  Simplified mean bias      = 2.116924
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.669865
+  Code prediction           = 4.829713
+  Simplified prediction     = 1.659427
+  Corrected prediction      = 3.512880
+  Code mean bias            = 0.759852
+  Simplified mean bias      = 2.211526
+  Corrected simplified bias = 1.044688
+
+95% absolute acceleration
+  MC mean                   = 2.682675
+  Code prediction           = 4.812897
+  Simplified prediction     = 1.653649
+  Corrected prediction      = 3.500649
+  Code mean bias            = 0.557393
+  Simplified mean bias      = 1.622276
+  Corrected simplified bias = 0.766336
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.600 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008662
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008662
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.509259
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.509259
+Residual correction lambda  = 0.531536
+Final factor chi_final      = 0.270689
+
+Peak 1-sec RMS
+  MC mean                   = 0.084509
+  Code prediction           = 0.312199
+  Simplified prediction     = 0.158990
+  Corrected prediction      = 0.084509
+  Code mean bias            = 0.270689
+  Simplified mean bias      = 0.531536
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.132774
+  Code prediction           = 0.433747
+  Simplified prediction     = 0.220889
+  Corrected prediction      = 0.117411
+  Code mean bias            = 0.306111
+  Simplified mean bias      = 0.601090
+  Corrected simplified bias = 1.130855
+
+95% absolute acceleration
+  MC mean                   = 0.083916
+  Code prediction           = 0.429604
+  Simplified prediction     = 0.218780
+  Corrected prediction      = 0.116289
+  Code mean bias            = 0.195333
+  Simplified mean bias      = 0.383564
+  Corrected simplified bias = 0.721615
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048299
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048299
+Mass ratio used in interpolation  = 0.048299
+Interpolated factor chi_0         = 0.210392
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.210392
+Residual correction lambda  = 2.350184
+Final factor chi_final      = 0.494461
+
+Peak 1-sec RMS
+  MC mean                   = 0.367475
+  Code prediction           = 0.743183
+  Simplified prediction     = 0.156360
+  Corrected prediction      = 0.367475
+  Code mean bias            = 0.494461
+  Simplified mean bias      = 2.350184
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.555153
+  Code prediction           = 1.032523
+  Simplified prediction     = 0.217235
+  Corrected prediction      = 0.510542
+  Code mean bias            = 0.537666
+  Simplified mean bias      = 2.555540
+  Corrected simplified bias = 1.087379
+
+95% absolute acceleration
+  MC mean                   = 0.353253
+  Code prediction           = 1.022662
+  Simplified prediction     = 0.215160
+  Corrected prediction      = 0.505666
+  Code mean bias            = 0.345425
+  Simplified mean bias      = 1.641812
+  Corrected simplified bias = 0.698589
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.092714
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.092714
+Mass ratio used in interpolation  = 0.092714
+Interpolated factor chi_0         = 0.128070
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.128070
+Residual correction lambda  = 5.068679
+Final factor chi_final      = 0.649145
+
+Peak 1-sec RMS
+  MC mean                   = 0.615125
+  Code prediction           = 0.947592
+  Simplified prediction     = 0.121358
+  Corrected prediction      = 0.615125
+  Code mean bias            = 0.649145
+  Simplified mean bias      = 5.068679
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.912768
+  Code prediction           = 1.316515
+  Simplified prediction     = 0.168606
+  Corrected prediction      = 0.854609
+  Code mean bias            = 0.693321
+  Simplified mean bias      = 5.413614
+  Corrected simplified bias = 1.068052
+
+95% absolute acceleration
+  MC mean                   = 0.563088
+  Code prediction           = 1.303941
+  Simplified prediction     = 0.166996
+  Corrected prediction      = 0.846447
+  Code mean bias            = 0.431835
+  Simplified mean bias      = 3.371872
+  Corrected simplified bias = 0.665237
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.140230
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.140230
+Mass ratio used in interpolation  = 0.140230
+Interpolated factor chi_0         = 0.101295
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.101295
+Residual correction lambda  = 9.011981
+Final factor chi_final      = 0.912871
+
+Peak 1-sec RMS
+  MC mean                   = 1.020406
+  Code prediction           = 1.117799
+  Simplified prediction     = 0.113228
+  Corrected prediction      = 1.020406
+  Code mean bias            = 0.912871
+  Simplified mean bias      = 9.011981
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.495602
+  Code prediction           = 1.552988
+  Simplified prediction     = 0.157310
+  Corrected prediction      = 1.417677
+  Code mean bias            = 0.963048
+  Simplified mean bias      = 9.507342
+  Corrected simplified bias = 1.054967
+
+95% absolute acceleration
+  MC mean                   = 0.938977
+  Code prediction           = 1.538155
+  Simplified prediction     = 0.155808
+  Corrected prediction      = 1.404136
+  Code mean bias            = 0.610457
+  Simplified mean bias      = 6.026509
+  Corrected simplified bias = 0.668722
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.164582
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.164582
+Mass ratio used in interpolation  = 0.164582
+Interpolated factor chi_0         = 0.110951
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.110951
+Residual correction lambda  = 9.308470
+Final factor chi_final      = 1.032781
+
+Peak 1-sec RMS
+  MC mean                   = 1.308419
+  Code prediction           = 1.266889
+  Simplified prediction     = 0.140562
+  Corrected prediction      = 1.308419
+  Code mean bias            = 1.032781
+  Simplified mean bias      = 9.308470
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.934372
+  Code prediction           = 1.760122
+  Simplified prediction     = 0.195287
+  Corrected prediction      = 1.817821
+  Code mean bias            = 1.098999
+  Simplified mean bias      = 9.905292
+  Corrected simplified bias = 1.064116
+
+95% absolute acceleration
+  MC mean                   = 1.263408
+  Code prediction           = 1.743311
+  Simplified prediction     = 0.193422
+  Corrected prediction      = 1.800458
+  Code mean bias            = 0.724718
+  Simplified mean bias      = 6.531891
+  Corrected simplified bias = 0.701715
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.215159
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.215159
+Mass ratio used in interpolation  = 0.215159
+Interpolated factor chi_0         = 0.159434
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.159434
+Residual correction lambda  = 7.793304
+Final factor chi_final      = 1.242521
+
+Peak 1-sec RMS
+  MC mean                   = 1.679116
+  Code prediction           = 1.351379
+  Simplified prediction     = 0.215456
+  Corrected prediction      = 1.679116
+  Code mean bias            = 1.242521
+  Simplified mean bias      = 7.793304
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 2.476831
+  Code prediction           = 1.877507
+  Simplified prediction     = 0.299339
+  Corrected prediction      = 2.332841
+  Code mean bias            = 1.319213
+  Simplified mean bias      = 8.274331
+  Corrected simplified bias = 1.061723
+
+95% absolute acceleration
+  MC mean                   = 1.725279
+  Code prediction           = 1.859574
+  Simplified prediction     = 0.296480
+  Corrected prediction      = 2.310559
+  Code mean bias            = 0.927782
+  Simplified mean bias      = 5.819209
+  Corrected simplified bias = 0.746693
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.291142
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.600000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.291142
+Mass ratio used in interpolation  = 0.291142
+Interpolated factor chi_0         = 0.258210
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.258210
+Residual correction lambda  = 2.527323
+Final factor chi_final      = 0.652580
+
+Peak 1-sec RMS
+  MC mean                   = 2.206957
+  Code prediction           = 3.381894
+  Simplified prediction     = 0.873239
+  Corrected prediction      = 2.206957
+  Code mean bias            = 0.652580
+  Simplified mean bias      = 2.527323
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 3.234200
+  Code prediction           = 4.698555
+  Simplified prediction     = 1.213214
+  Corrected prediction      = 3.066184
+  Code mean bias            = 0.688339
+  Simplified mean bias      = 2.665812
+  Corrected simplified bias = 1.054797
+
+95% absolute acceleration
+  MC mean                   = 2.364172
+  Code prediction           = 4.653678
+  Simplified prediction     = 1.201626
+  Corrected prediction      = 3.036898
+  Code mean bias            = 0.508022
+  Simplified mean bias      = 1.967477
+  Corrected simplified bias = 0.778483
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 2.800 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008563
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008563
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.427158
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.427158
+Residual correction lambda  = 0.400352
+Final factor chi_final      = 0.171013
+
+Peak 1-sec RMS
+  MC mean                   = 0.052615
+  Code prediction           = 0.307664
+  Simplified prediction     = 0.131421
+  Corrected prediction      = 0.052615
+  Code mean bias            = 0.171013
+  Simplified mean bias      = 0.400352
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.089333
+  Code prediction           = 0.423726
+  Simplified prediction     = 0.180998
+  Corrected prediction      = 0.072463
+  Code mean bias            = 0.210826
+  Simplified mean bias      = 0.493557
+  Corrected simplified bias = 1.232807
+
+95% absolute acceleration
+  MC mean                   = 0.053880
+  Code prediction           = 0.418859
+  Simplified prediction     = 0.178919
+  Corrected prediction      = 0.071630
+  Code mean bias            = 0.128636
+  Simplified mean bias      = 0.301145
+  Corrected simplified bias = 0.752200
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048613
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048613
+Mass ratio used in interpolation  = 0.048613
+Interpolated factor chi_0         = 0.158738
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.158738
+Residual correction lambda  = 1.927143
+Final factor chi_final      = 0.305910
+
+Peak 1-sec RMS
+  MC mean                   = 0.224044
+  Code prediction           = 0.732387
+  Simplified prediction     = 0.116257
+  Corrected prediction      = 0.224044
+  Code mean bias            = 0.305910
+  Simplified mean bias      = 1.927143
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.356908
+  Code prediction           = 1.008670
+  Simplified prediction     = 0.160114
+  Corrected prediction      = 0.308562
+  Code mean bias            = 0.353841
+  Simplified mean bias      = 2.229093
+  Corrected simplified bias = 1.156683
+
+95% absolute acceleration
+  MC mean                   = 0.211905
+  Code prediction           = 0.997083
+  Simplified prediction     = 0.158275
+  Corrected prediction      = 0.305018
+  Code mean bias            = 0.212525
+  Simplified mean bias      = 1.338844
+  Corrected simplified bias = 0.694730
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093529
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093529
+Mass ratio used in interpolation  = 0.093529
+Interpolated factor chi_0         = 0.092821
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.092821
+Residual correction lambda  = 4.720445
+Final factor chi_final      = 0.438154
+
+Peak 1-sec RMS
+  MC mean                   = 0.408855
+  Code prediction           = 0.933131
+  Simplified prediction     = 0.086614
+  Corrected prediction      = 0.408855
+  Code mean bias            = 0.438154
+  Simplified mean bias      = 4.720445
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.640923
+  Code prediction           = 1.285142
+  Simplified prediction     = 0.119288
+  Corrected prediction      = 0.563091
+  Code mean bias            = 0.498717
+  Simplified mean bias      = 5.372919
+  Corrected simplified bias = 1.138223
+
+95% absolute acceleration
+  MC mean                   = 0.375118
+  Code prediction           = 1.270380
+  Simplified prediction     = 0.117917
+  Corrected prediction      = 0.556622
+  Code mean bias            = 0.295281
+  Simplified mean bias      = 3.181198
+  Corrected simplified bias = 0.673919
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.144000
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.144000
+Mass ratio used in interpolation  = 0.144000
+Interpolated factor chi_0         = 0.072793
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.072793
+Residual correction lambda  = 7.978968
+Final factor chi_final      = 0.580811
+
+Peak 1-sec RMS
+  MC mean                   = 0.637690
+  Code prediction           = 1.097931
+  Simplified prediction     = 0.079921
+  Corrected prediction      = 0.637690
+  Code mean bias            = 0.580811
+  Simplified mean bias      = 7.978968
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.973350
+  Code prediction           = 1.512111
+  Simplified prediction     = 0.110071
+  Corrected prediction      = 0.878250
+  Code mean bias            = 0.643703
+  Simplified mean bias      = 8.842956
+  Corrected simplified bias = 1.108283
+
+95% absolute acceleration
+  MC mean                   = 0.595156
+  Code prediction           = 1.494742
+  Simplified prediction     = 0.108806
+  Corrected prediction      = 0.868162
+  Code mean bias            = 0.398167
+  Simplified mean bias      = 5.469870
+  Corrected simplified bias = 0.685536
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.198985
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.198985
+Mass ratio used in interpolation  = 0.198985
+Interpolated factor chi_0         = 0.063722
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.063722
+Residual correction lambda  = 11.872199
+Final factor chi_final      = 0.756517
+
+Peak 1-sec RMS
+  MC mean                   = 0.917399
+  Code prediction           = 1.212662
+  Simplified prediction     = 0.077273
+  Corrected prediction      = 0.917399
+  Code mean bias            = 0.756517
+  Simplified mean bias      = 11.872199
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.391530
+  Code prediction           = 1.670122
+  Simplified prediction     = 0.106423
+  Corrected prediction      = 1.263475
+  Code mean bias            = 0.833191
+  Simplified mean bias      = 13.075461
+  Corrected simplified bias = 1.101351
+
+95% absolute acceleration
+  MC mean                   = 0.878465
+  Code prediction           = 1.650938
+  Simplified prediction     = 0.105201
+  Corrected prediction      = 1.248962
+  Code mean bias            = 0.532101
+  Simplified mean bias      = 8.350383
+  Corrected simplified bias = 0.703356
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.219331
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.219331
+Mass ratio used in interpolation  = 0.219331
+Interpolated factor chi_0         = 0.061811
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.061811
+Residual correction lambda  = 12.802580
+Final factor chi_final      = 0.791345
+
+Peak 1-sec RMS
+  MC mean                   = 1.050266
+  Code prediction           = 1.327191
+  Simplified prediction     = 0.082036
+  Corrected prediction      = 1.050266
+  Code mean bias            = 0.791345
+  Simplified mean bias      = 12.802580
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.601053
+  Code prediction           = 1.827856
+  Simplified prediction     = 0.112982
+  Corrected prediction      = 1.446465
+  Code mean bias            = 0.875919
+  Simplified mean bias      = 14.170824
+  Corrected simplified bias = 1.106873
+
+95% absolute acceleration
+  MC mean                   = 1.048076
+  Code prediction           = 1.806860
+  Simplified prediction     = 0.111685
+  Corrected prediction      = 1.429850
+  Code mean bias            = 0.580054
+  Simplified mean bias      = 9.384252
+  Corrected simplified bias = 0.732997
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.255446
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 2.800000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.255446
+Mass ratio used in interpolation  = 0.255446
+Interpolated factor chi_0         = 0.061493
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.061493
+Residual correction lambda  = 6.163855
+Final factor chi_final      = 0.379033
+
+Peak 1-sec RMS
+  MC mean                   = 1.299145
+  Code prediction           = 3.427526
+  Simplified prediction     = 0.210768
+  Corrected prediction      = 1.299145
+  Code mean bias            = 0.379033
+  Simplified mean bias      = 6.163855
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.984530
+  Code prediction           = 4.720514
+  Simplified prediction     = 0.290278
+  Corrected prediction      = 1.789230
+  Code mean bias            = 0.420405
+  Simplified mean bias      = 6.836659
+  Corrected simplified bias = 1.109153
+
+95% absolute acceleration
+  MC mean                   = 1.334090
+  Code prediction           = 4.666291
+  Simplified prediction     = 0.286943
+  Corrected prediction      = 1.768677
+  Code mean bias            = 0.285899
+  Simplified mean bias      = 4.649314
+  Corrected simplified bias = 0.754287
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 3.000 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008505
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008505
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.374589
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.374589
+Residual correction lambda  = 0.437290
+Final factor chi_final      = 0.163804
+
+Peak 1-sec RMS
+  MC mean                   = 0.047819
+  Code prediction           = 0.291928
+  Simplified prediction     = 0.109353
+  Corrected prediction      = 0.047819
+  Code mean bias            = 0.163804
+  Simplified mean bias      = 0.437290
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.084035
+  Code prediction           = 0.412805
+  Simplified prediction     = 0.154632
+  Corrected prediction      = 0.067619
+  Code mean bias            = 0.203570
+  Simplified mean bias      = 0.543448
+  Corrected simplified bias = 1.242764
+
+95% absolute acceleration
+  MC mean                   = 0.048850
+  Code prediction           = 0.406374
+  Simplified prediction     = 0.152223
+  Corrected prediction      = 0.066566
+  Code mean bias            = 0.120208
+  Simplified mean bias      = 0.320907
+  Corrected simplified bias = 0.733854
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048468
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048468
+Mass ratio used in interpolation  = 0.048468
+Interpolated factor chi_0         = 0.128030
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.128030
+Residual correction lambda  = 1.834184
+Final factor chi_final      = 0.234830
+
+Peak 1-sec RMS
+  MC mean                   = 0.163190
+  Code prediction           = 0.694928
+  Simplified prediction     = 0.088971
+  Corrected prediction      = 0.163190
+  Code mean bias            = 0.234830
+  Simplified mean bias      = 1.834184
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.276238
+  Code prediction           = 0.982672
+  Simplified prediction     = 0.125811
+  Corrected prediction      = 0.230761
+  Code mean bias            = 0.281109
+  Simplified mean bias      = 2.195657
+  Corrected simplified bias = 1.197076
+
+95% absolute acceleration
+  MC mean                   = 0.158907
+  Code prediction           = 0.967364
+  Simplified prediction     = 0.123851
+  Corrected prediction      = 0.227166
+  Code mean bias            = 0.164269
+  Simplified mean bias      = 1.283051
+  Corrected simplified bias = 0.699521
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.092392
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.092392
+Mass ratio used in interpolation  = 0.092392
+Interpolated factor chi_0         = 0.070533
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.070533
+Residual correction lambda  = 4.184845
+Final factor chi_final      = 0.295169
+
+Peak 1-sec RMS
+  MC mean                   = 0.261616
+  Code prediction           = 0.886327
+  Simplified prediction     = 0.062515
+  Corrected prediction      = 0.261616
+  Code mean bias            = 0.295169
+  Simplified mean bias      = 4.184845
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.440134
+  Code prediction           = 1.253321
+  Simplified prediction     = 0.088400
+  Corrected prediction      = 0.369941
+  Code mean bias            = 0.351174
+  Simplified mean bias      = 4.978875
+  Corrected simplified bias = 1.189739
+
+95% absolute acceleration
+  MC mean                   = 0.256427
+  Code prediction           = 1.233797
+  Simplified prediction     = 0.087023
+  Corrected prediction      = 0.364178
+  Code mean bias            = 0.207836
+  Simplified mean bias      = 2.946655
+  Corrected simplified bias = 0.704125
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.141882
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.141882
+Mass ratio used in interpolation  = 0.141882
+Interpolated factor chi_0         = 0.054606
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.054606
+Residual correction lambda  = 7.495705
+Final factor chi_final      = 0.409312
+
+Peak 1-sec RMS
+  MC mean                   = 0.427203
+  Code prediction           = 1.043709
+  Simplified prediction     = 0.056993
+  Corrected prediction      = 0.427203
+  Code mean bias            = 0.409312
+  Simplified mean bias      = 7.495705
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.698349
+  Code prediction           = 1.475869
+  Simplified prediction     = 0.080592
+  Corrected prediction      = 0.604091
+  Code mean bias            = 0.473178
+  Simplified mean bias      = 8.665285
+  Corrected simplified bias = 1.156033
+
+95% absolute acceleration
+  MC mean                   = 0.410024
+  Code prediction           = 1.452878
+  Simplified prediction     = 0.079336
+  Corrected prediction      = 0.594680
+  Code mean bias            = 0.282215
+  Simplified mean bias      = 5.168185
+  Corrected simplified bias = 0.689486
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.179410
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.179410
+Mass ratio used in interpolation  = 0.179410
+Interpolated factor chi_0         = 0.049749
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.049749
+Residual correction lambda  = 10.040989
+Final factor chi_final      = 0.499529
+
+Peak 1-sec RMS
+  MC mean                   = 0.584317
+  Code prediction           = 1.169736
+  Simplified prediction     = 0.058193
+  Corrected prediction      = 0.584317
+  Code mean bias            = 0.499529
+  Simplified mean bias      = 10.040989
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.921957
+  Code prediction           = 1.654079
+  Simplified prediction     = 0.082289
+  Corrected prediction      = 0.826260
+  Code mean bias            = 0.557384
+  Simplified mean bias      = 11.203931
+  Corrected simplified bias = 1.115820
+
+95% absolute acceleration
+  MC mean                   = 0.567359
+  Code prediction           = 1.628313
+  Simplified prediction     = 0.081007
+  Corrected prediction      = 0.813389
+  Code mean bias            = 0.348434
+  Simplified mean bias      = 7.003842
+  Corrected simplified bias = 0.697525
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.241134
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.241134
+Mass ratio used in interpolation  = 0.241134
+Interpolated factor chi_0         = 0.045022
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.045022
+Residual correction lambda  = 13.504436
+Final factor chi_final      = 0.607994
+
+Peak 1-sec RMS
+  MC mean                   = 0.752203
+  Code prediction           = 1.237188
+  Simplified prediction     = 0.055700
+  Corrected prediction      = 0.752203
+  Code mean bias            = 0.607994
+  Simplified mean bias      = 13.504436
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.193259
+  Code prediction           = 1.749461
+  Simplified prediction     = 0.078764
+  Corrected prediction      = 1.063661
+  Code mean bias            = 0.682073
+  Simplified mean bias      = 15.149838
+  Corrected simplified bias = 1.121842
+
+95% absolute acceleration
+  MC mean                   = 0.759785
+  Code prediction           = 1.722208
+  Simplified prediction     = 0.077537
+  Corrected prediction      = 1.047092
+  Code mean bias            = 0.441169
+  Simplified mean bias      = 9.799014
+  Corrected simplified bias = 0.725614
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.301925
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.301925
+Mass ratio used in interpolation  = 0.290000
+Interpolated factor chi_0         = 0.043052
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.043052
+Residual correction lambda  = 7.116905
+Final factor chi_final      = 0.306396
+
+Peak 1-sec RMS
+  MC mean                   = 0.960896
+  Code prediction           = 3.136119
+  Simplified prediction     = 0.135016
+  Corrected prediction      = 0.960896
+  Code mean bias            = 0.306396
+  Simplified mean bias      = 7.116905
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.513766
+  Code prediction           = 4.434666
+  Simplified prediction     = 0.190921
+  Corrected prediction      = 1.358766
+  Code mean bias            = 0.341348
+  Simplified mean bias      = 7.928762
+  Corrected simplified bias = 1.114074
+
+95% absolute acceleration
+  MC mean                   = 1.000555
+  Code prediction           = 4.365584
+  Simplified prediction     = 0.187947
+  Corrected prediction      = 1.337599
+  Code mean bias            = 0.229191
+  Simplified mean bias      = 5.323607
+  Corrected simplified bias = 0.748023
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 3.250 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008542
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008542
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.356429
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.356429
+Residual correction lambda  = 0.562101
+Final factor chi_final      = 0.200349
+
+Peak 1-sec RMS
+  MC mean                   = 0.048155
+  Code prediction           = 0.240354
+  Simplified prediction     = 0.085669
+  Corrected prediction      = 0.048155
+  Code mean bias            = 0.200349
+  Simplified mean bias      = 0.562101
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.085253
+  Code prediction           = 0.331825
+  Simplified prediction     = 0.118272
+  Corrected prediction      = 0.066481
+  Code mean bias            = 0.256923
+  Simplified mean bias      = 0.720825
+  Corrected simplified bias = 1.282375
+
+95% absolute acceleration
+  MC mean                   = 0.051852
+  Code prediction           = 0.323409
+  Simplified prediction     = 0.115272
+  Corrected prediction      = 0.064795
+  Code mean bias            = 0.160330
+  Simplified mean bias      = 0.449824
+  Corrected simplified bias = 0.800255
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048411
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048411
+Mass ratio used in interpolation  = 0.048411
+Interpolated factor chi_0         = 0.113150
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.113150
+Residual correction lambda  = 1.921130
+Final factor chi_final      = 0.217376
+
+Peak 1-sec RMS
+  MC mean                   = 0.124373
+  Code prediction           = 0.572157
+  Simplified prediction     = 0.064739
+  Corrected prediction      = 0.124373
+  Code mean bias            = 0.217376
+  Simplified mean bias      = 1.921130
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.229828
+  Code prediction           = 0.789902
+  Simplified prediction     = 0.089377
+  Corrected prediction      = 0.171705
+  Code mean bias            = 0.290958
+  Simplified mean bias      = 2.571442
+  Corrected simplified bias = 1.338505
+
+95% absolute acceleration
+  MC mean                   = 0.128797
+  Code prediction           = 0.769867
+  Simplified prediction     = 0.087110
+  Corrected prediction      = 0.167350
+  Code mean bias            = 0.167297
+  Simplified mean bias      = 1.478547
+  Corrected simplified bias = 0.769624
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093163
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093163
+Mass ratio used in interpolation  = 0.093163
+Interpolated factor chi_0         = 0.053781
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.053781
+Residual correction lambda  = 5.213275
+Final factor chi_final      = 0.280377
+
+Peak 1-sec RMS
+  MC mean                   = 0.204459
+  Code prediction           = 0.729227
+  Simplified prediction     = 0.039219
+  Corrected prediction      = 0.204459
+  Code mean bias            = 0.280377
+  Simplified mean bias      = 5.213275
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.365986
+  Code prediction           = 1.006748
+  Simplified prediction     = 0.054144
+  Corrected prediction      = 0.282269
+  Code mean bias            = 0.363533
+  Simplified mean bias      = 6.759456
+  Corrected simplified bias = 1.296585
+
+95% absolute acceleration
+  MC mean                   = 0.211215
+  Code prediction           = 0.981213
+  Simplified prediction     = 0.052771
+  Corrected prediction      = 0.275109
+  Code mean bias            = 0.215259
+  Simplified mean bias      = 4.002480
+  Corrected simplified bias = 0.767748
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.140908
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.140908
+Mass ratio used in interpolation  = 0.140908
+Interpolated factor chi_0         = 0.039521
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.039521
+Residual correction lambda  = 8.831007
+Final factor chi_final      = 0.349007
+
+Peak 1-sec RMS
+  MC mean                   = 0.300164
+  Code prediction           = 0.860053
+  Simplified prediction     = 0.033990
+  Corrected prediction      = 0.300164
+  Code mean bias            = 0.349007
+  Simplified mean bias      = 8.831007
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.522675
+  Code prediction           = 1.187361
+  Simplified prediction     = 0.046925
+  Corrected prediction      = 0.414397
+  Code mean bias            = 0.440199
+  Simplified mean bias      = 11.138461
+  Corrected simplified bias = 1.261290
+
+95% absolute acceleration
+  MC mean                   = 0.322937
+  Code prediction           = 1.157245
+  Simplified prediction     = 0.045735
+  Corrected prediction      = 0.403886
+  Code mean bias            = 0.279057
+  Simplified mean bias      = 7.061040
+  Corrected simplified bias = 0.799574
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.174759
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.174759
+Mass ratio used in interpolation  = 0.174759
+Interpolated factor chi_0         = 0.035901
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.035901
+Residual correction lambda  = 11.156458
+Final factor chi_final      = 0.400531
+
+Peak 1-sec RMS
+  MC mean                   = 0.387271
+  Code prediction           = 0.966895
+  Simplified prediction     = 0.034713
+  Corrected prediction      = 0.387271
+  Code mean bias            = 0.400531
+  Simplified mean bias      = 11.156458
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.671112
+  Code prediction           = 1.334865
+  Simplified prediction     = 0.047923
+  Corrected prediction      = 0.534654
+  Code mean bias            = 0.502757
+  Simplified mean bias      = 14.003879
+  Corrected simplified bias = 1.255226
+
+95% absolute acceleration
+  MC mean                   = 0.412509
+  Code prediction           = 1.301007
+  Simplified prediction     = 0.046708
+  Corrected prediction      = 0.521094
+  Code mean bias            = 0.317069
+  Simplified mean bias      = 8.831697
+  Corrected simplified bias = 0.791622
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.223511
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.223511
+Mass ratio used in interpolation  = 0.223511
+Interpolated factor chi_0         = 0.032922
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.032922
+Residual correction lambda  = 14.464519
+Final factor chi_final      = 0.476200
+
+Peak 1-sec RMS
+  MC mean                   = 0.492053
+  Code prediction           = 1.033289
+  Simplified prediction     = 0.034018
+  Corrected prediction      = 0.492053
+  Code mean bias            = 0.476200
+  Simplified mean bias      = 14.464519
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.828662
+  Code prediction           = 1.426526
+  Simplified prediction     = 0.046964
+  Corrected prediction      = 0.679312
+  Code mean bias            = 0.580895
+  Simplified mean bias      = 17.644604
+  Corrected simplified bias = 1.219854
+
+95% absolute acceleration
+  MC mean                   = 0.524403
+  Code prediction           = 1.390344
+  Simplified prediction     = 0.045773
+  Corrected prediction      = 0.662082
+  Code mean bias            = 0.377175
+  Simplified mean bias      = 11.456644
+  Corrected simplified bias = 0.792051
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.280001
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.280001
+Mass ratio used in interpolation  = 0.280001
+Interpolated factor chi_0         = 0.031226
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.031226
+Residual correction lambda  = 7.541425
+Final factor chi_final      = 0.235491
+
+Peak 1-sec RMS
+  MC mean                   = 0.618470
+  Code prediction           = 2.626294
+  Simplified prediction     = 0.082010
+  Corrected prediction      = 0.618470
+  Code mean bias            = 0.235491
+  Simplified mean bias      = 7.541425
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 1.042557
+  Code prediction           = 3.625777
+  Simplified prediction     = 0.113220
+  Corrected prediction      = 0.853839
+  Code mean bias            = 0.287540
+  Simplified mean bias      = 9.208247
+  Corrected simplified bias = 1.221022
+
+95% absolute acceleration
+  MC mean                   = 0.667849
+  Code prediction           = 3.533814
+  Simplified prediction     = 0.110348
+  Corrected prediction      = 0.832183
+  Code mean bias            = 0.188988
+  Simplified mean bias      = 6.052193
+  Corrected simplified bias = 0.802526
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 3.500 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008636
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008636
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.381220
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.381220
+Residual correction lambda  = 0.562753
+Final factor chi_final      = 0.214533
+
+Peak 1-sec RMS
+  MC mean                   = 0.058091
+  Code prediction           = 0.270780
+  Simplified prediction     = 0.103227
+  Corrected prediction      = 0.058091
+  Code mean bias            = 0.214533
+  Simplified mean bias      = 0.562753
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.100117
+  Code prediction           = 0.382875
+  Simplified prediction     = 0.145960
+  Corrected prediction      = 0.082139
+  Code mean bias            = 0.261488
+  Simplified mean bias      = 0.685924
+  Corrected simplified bias = 1.218872
+
+95% absolute acceleration
+  MC mean                   = 0.065178
+  Code prediction           = 0.368129
+  Simplified prediction     = 0.140338
+  Corrected prediction      = 0.078976
+  Code mean bias            = 0.177052
+  Simplified mean bias      = 0.464435
+  Corrected simplified bias = 0.825291
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048433
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048433
+Mass ratio used in interpolation  = 0.048433
+Interpolated factor chi_0         = 0.123745
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.123745
+Residual correction lambda  = 1.771836
+Final factor chi_final      = 0.219255
+
+Peak 1-sec RMS
+  MC mean                   = 0.141329
+  Code prediction           = 0.644586
+  Simplified prediction     = 0.079764
+  Corrected prediction      = 0.141329
+  Code mean bias            = 0.219255
+  Simplified mean bias      = 1.771836
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.260709
+  Code prediction           = 0.911425
+  Simplified prediction     = 0.112784
+  Corrected prediction      = 0.199835
+  Code mean bias            = 0.286045
+  Simplified mean bias      = 2.311579
+  Corrected simplified bias = 1.304624
+
+95% absolute acceleration
+  MC mean                   = 0.148585
+  Code prediction           = 0.876323
+  Simplified prediction     = 0.108440
+  Corrected prediction      = 0.192138
+  Code mean bias            = 0.169556
+  Simplified mean bias      = 1.370207
+  Corrected simplified bias = 0.773326
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.091619
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.091619
+Mass ratio used in interpolation  = 0.091619
+Interpolated factor chi_0         = 0.060676
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.060676
+Residual correction lambda  = 3.901544
+Final factor chi_final      = 0.236731
+
+Peak 1-sec RMS
+  MC mean                   = 0.194759
+  Code prediction           = 0.822702
+  Simplified prediction     = 0.049918
+  Corrected prediction      = 0.194759
+  Code mean bias            = 0.236731
+  Simplified mean bias      = 3.901544
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.371156
+  Code prediction           = 1.163276
+  Simplified prediction     = 0.070583
+  Corrected prediction      = 0.275383
+  Code mean bias            = 0.319061
+  Simplified mean bias      = 5.258431
+  Corrected simplified bias = 1.347782
+
+95% absolute acceleration
+  MC mean                   = 0.215908
+  Code prediction           = 1.118473
+  Simplified prediction     = 0.067865
+  Corrected prediction      = 0.264777
+  Code mean bias            = 0.193039
+  Simplified mean bias      = 3.181457
+  Corrected simplified bias = 0.815435
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.133816
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.133816
+Mass ratio used in interpolation  = 0.133816
+Interpolated factor chi_0         = 0.043170
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.043170
+Residual correction lambda  = 6.084181
+Final factor chi_final      = 0.262657
+
+Peak 1-sec RMS
+  MC mean                   = 0.256087
+  Code prediction           = 0.974987
+  Simplified prediction     = 0.042091
+  Corrected prediction      = 0.256087
+  Code mean bias            = 0.262657
+  Simplified mean bias      = 6.084181
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.490085
+  Code prediction           = 1.378603
+  Simplified prediction     = 0.059515
+  Corrected prediction      = 0.362099
+  Code mean bias            = 0.355494
+  Simplified mean bias      = 8.234665
+  Corrected simplified bias = 1.353455
+
+95% absolute acceleration
+  MC mean                   = 0.304728
+  Code prediction           = 1.325507
+  Simplified prediction     = 0.057223
+  Corrected prediction      = 0.348153
+  Code mean bias            = 0.229895
+  Simplified mean bias      = 5.325299
+  Corrected simplified bias = 0.875270
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.188721
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.188721
+Mass ratio used in interpolation  = 0.188721
+Interpolated factor chi_0         = 0.033513
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.033513
+Residual correction lambda  = 9.394249
+Final factor chi_final      = 0.314827
+
+Peak 1-sec RMS
+  MC mean                   = 0.338911
+  Code prediction           = 1.076499
+  Simplified prediction     = 0.036076
+  Corrected prediction      = 0.338911
+  Code mean bias            = 0.314827
+  Simplified mean bias      = 9.394249
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.633828
+  Code prediction           = 1.522138
+  Simplified prediction     = 0.051011
+  Corrected prediction      = 0.479211
+  Code mean bias            = 0.416406
+  Simplified mean bias      = 12.425296
+  Corrected simplified bias = 1.322649
+
+95% absolute acceleration
+  MC mean                   = 0.388829
+  Code prediction           = 1.463514
+  Simplified prediction     = 0.049046
+  Corrected prediction      = 0.460754
+  Code mean bias            = 0.265682
+  Simplified mean bias      = 7.927785
+  Corrected simplified bias = 0.843898
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.230468
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.230468
+Mass ratio used in interpolation  = 0.230468
+Interpolated factor chi_0         = 0.029636
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.029636
+Residual correction lambda  = 10.952709
+Final factor chi_final      = 0.324590
+
+Peak 1-sec RMS
+  MC mean                   = 0.375717
+  Code prediction           = 1.157510
+  Simplified prediction     = 0.034304
+  Corrected prediction      = 0.375717
+  Code mean bias            = 0.324590
+  Simplified mean bias      = 10.952709
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.707655
+  Code prediction           = 1.636685
+  Simplified prediction     = 0.048504
+  Corrected prediction      = 0.531252
+  Code mean bias            = 0.432371
+  Simplified mean bias      = 14.589570
+  Corrected simplified bias = 1.332051
+
+95% absolute acceleration
+  MC mean                   = 0.450456
+  Code prediction           = 1.573650
+  Simplified prediction     = 0.046636
+  Corrected prediction      = 0.510791
+  Code mean bias            = 0.286249
+  Simplified mean bias      = 9.658956
+  Corrected simplified bias = 0.881878
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.270414
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.270414
+Mass ratio used in interpolation  = 0.270414
+Interpolated factor chi_0         = 0.025200
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.025200
+Residual correction lambda  = 6.211025
+Final factor chi_final      = 0.156515
+
+Peak 1-sec RMS
+  MC mean                   = 0.466584
+  Code prediction           = 2.981082
+  Simplified prediction     = 0.075122
+  Corrected prediction      = 0.466584
+  Code mean bias            = 0.156515
+  Simplified mean bias      = 6.211025
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.859931
+  Code prediction           = 4.215162
+  Simplified prediction     = 0.106220
+  Corrected prediction      = 0.659736
+  Code mean bias            = 0.204009
+  Simplified mean bias      = 8.095741
+  Corrected simplified bias = 1.303447
+
+95% absolute acceleration
+  MC mean                   = 0.544205
+  Code prediction           = 4.052818
+  Simplified prediction     = 0.102129
+  Corrected prediction      = 0.634327
+  Code mean bias            = 0.134278
+  Simplified mean bias      = 5.328598
+  Corrected simplified bias = 0.857926
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 3.750 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008526
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008526
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.425150
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.425150
+Residual correction lambda  = 0.738052
+Final factor chi_final      = 0.313783
+
+Peak 1-sec RMS
+  MC mean                   = 0.083184
+  Code prediction           = 0.265099
+  Simplified prediction     = 0.112707
+  Corrected prediction      = 0.083184
+  Code mean bias            = 0.313783
+  Simplified mean bias      = 0.738052
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.134483
+  Code prediction           = 0.367073
+  Simplified prediction     = 0.156061
+  Corrected prediction      = 0.115181
+  Code mean bias            = 0.366366
+  Simplified mean bias      = 0.861733
+  Corrected simplified bias = 1.167577
+
+95% absolute acceleration
+  MC mean                   = 0.091760
+  Code prediction           = 0.346989
+  Simplified prediction     = 0.147522
+  Corrected prediction      = 0.108879
+  Code mean bias            = 0.264446
+  Simplified mean bias      = 0.622006
+  Corrected simplified bias = 0.842767
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048151
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048151
+Mass ratio used in interpolation  = 0.048151
+Interpolated factor chi_0         = 0.146993
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.146993
+Residual correction lambda  = 2.022714
+Final factor chi_final      = 0.297325
+
+Peak 1-sec RMS
+  MC mean                   = 0.187630
+  Code prediction           = 0.631061
+  Simplified prediction     = 0.092761
+  Corrected prediction      = 0.187630
+  Code mean bias            = 0.297325
+  Simplified mean bias      = 2.022714
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.315914
+  Code prediction           = 0.873809
+  Simplified prediction     = 0.128444
+  Corrected prediction      = 0.259805
+  Code mean bias            = 0.361537
+  Simplified mean bias      = 2.459556
+  Corrected simplified bias = 1.215968
+
+95% absolute acceleration
+  MC mean                   = 0.192210
+  Code prediction           = 0.825999
+  Simplified prediction     = 0.121416
+  Corrected prediction      = 0.245590
+  Code mean bias            = 0.232700
+  Simplified mean bias      = 1.583069
+  Corrected simplified bias = 0.782646
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.092205
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.092205
+Mass ratio used in interpolation  = 0.092205
+Interpolated factor chi_0         = 0.073373
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.073373
+Residual correction lambda  = 3.962994
+Final factor chi_final      = 0.290779
+
+Peak 1-sec RMS
+  MC mean                   = 0.234079
+  Code prediction           = 0.805007
+  Simplified prediction     = 0.059066
+  Corrected prediction      = 0.234079
+  Code mean bias            = 0.290779
+  Simplified mean bias      = 3.962994
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.423634
+  Code prediction           = 1.114666
+  Simplified prediction     = 0.081787
+  Corrected prediction      = 0.324121
+  Code mean bias            = 0.380055
+  Simplified mean bias      = 5.179732
+  Corrected simplified bias = 1.307025
+
+95% absolute acceleration
+  MC mean                   = 0.260039
+  Code prediction           = 1.053677
+  Simplified prediction     = 0.077312
+  Corrected prediction      = 0.306387
+  Code mean bias            = 0.246792
+  Simplified mean bias      = 3.363501
+  Corrected simplified bias = 0.848727
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.130950
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.130950
+Mass ratio used in interpolation  = 0.130950
+Interpolated factor chi_0         = 0.053942
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.053942
+Residual correction lambda  = 5.417153
+Final factor chi_final      = 0.292210
+
+Peak 1-sec RMS
+  MC mean                   = 0.279630
+  Code prediction           = 0.956949
+  Simplified prediction     = 0.051619
+  Corrected prediction      = 0.279630
+  Code mean bias            = 0.292210
+  Simplified mean bias      = 5.417153
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.538776
+  Code prediction           = 1.325055
+  Simplified prediction     = 0.071476
+  Corrected prediction      = 0.387195
+  Code mean bias            = 0.406607
+  Simplified mean bias      = 7.537897
+  Corrected simplified bias = 1.391487
+
+95% absolute acceleration
+  MC mean                   = 0.339493
+  Code prediction           = 1.252554
+  Simplified prediction     = 0.067565
+  Corrected prediction      = 0.366009
+  Code mean bias            = 0.271041
+  Simplified mean bias      = 5.024700
+  Corrected simplified bias = 0.927554
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.183395
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.183395
+Mass ratio used in interpolation  = 0.183395
+Interpolated factor chi_0         = 0.041362
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.041362
+Residual correction lambda  = 7.203229
+Final factor chi_final      = 0.297936
+
+Peak 1-sec RMS
+  MC mean                   = 0.315412
+  Code prediction           = 1.058655
+  Simplified prediction     = 0.043788
+  Corrected prediction      = 0.315412
+  Code mean bias            = 0.297936
+  Simplified mean bias      = 7.203229
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.623576
+  Code prediction           = 1.465884
+  Simplified prediction     = 0.060631
+  Corrected prediction      = 0.436740
+  Code mean bias            = 0.425392
+  Simplified mean bias      = 10.284742
+  Corrected simplified bias = 1.427796
+
+95% absolute acceleration
+  MC mean                   = 0.405912
+  Code prediction           = 1.385678
+  Simplified prediction     = 0.057314
+  Corrected prediction      = 0.412844
+  Code mean bias            = 0.292934
+  Simplified mean bias      = 7.082285
+  Corrected simplified bias = 0.983210
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.214544
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.214544
+Mass ratio used in interpolation  = 0.214544
+Interpolated factor chi_0         = 0.035471
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.035471
+Residual correction lambda  = 8.396547
+Final factor chi_final      = 0.297831
+
+Peak 1-sec RMS
+  MC mean                   = 0.341934
+  Code prediction           = 1.148081
+  Simplified prediction     = 0.040723
+  Corrected prediction      = 0.341934
+  Code mean bias            = 0.297831
+  Simplified mean bias      = 8.396547
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.683944
+  Code prediction           = 1.589709
+  Simplified prediction     = 0.056388
+  Corrected prediction      = 0.473464
+  Code mean bias            = 0.430232
+  Simplified mean bias      = 12.129253
+  Corrected simplified bias = 1.444552
+
+95% absolute acceleration
+  MC mean                   = 0.438900
+  Code prediction           = 1.502729
+  Simplified prediction     = 0.053303
+  Corrected prediction      = 0.447558
+  Code mean bias            = 0.292069
+  Simplified mean bias      = 8.234112
+  Corrected simplified bias = 0.980654
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.304674
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 3.750000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.304674
+Mass ratio used in interpolation  = 0.290000
+Interpolated factor chi_0         = 0.018085
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.018085
+Residual correction lambda  = 7.984961
+Final factor chi_final      = 0.144411
+
+Peak 1-sec RMS
+  MC mean                   = 0.410401
+  Code prediction           = 2.841893
+  Simplified prediction     = 0.051397
+  Corrected prediction      = 0.410401
+  Code mean bias            = 0.144411
+  Simplified mean bias      = 7.984961
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.826025
+  Code prediction           = 3.935075
+  Simplified prediction     = 0.071167
+  Corrected prediction      = 0.568268
+  Code mean bias            = 0.209913
+  Simplified mean bias      = 11.606802
+  Corrected simplified bias = 1.453583
+
+95% absolute acceleration
+  MC mean                   = 0.549117
+  Code prediction           = 3.719768
+  Simplified prediction     = 0.067273
+  Corrected prediction      = 0.537175
+  Code mean bias            = 0.147621
+  Simplified mean bias      = 8.162467
+  Corrected simplified bias = 1.022230
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 4.000 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008588
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008588
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.474457
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.474457
+Residual correction lambda  = 0.863350
+Final factor chi_final      = 0.409623
+
+Peak 1-sec RMS
+  MC mean                   = 0.101789
+  Code prediction           = 0.248495
+  Simplified prediction     = 0.117900
+  Corrected prediction      = 0.101789
+  Code mean bias            = 0.409623
+  Simplified mean bias      = 0.863350
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.161095
+  Code prediction           = 0.351014
+  Simplified prediction     = 0.166541
+  Corrected prediction      = 0.143783
+  Code mean bias            = 0.458943
+  Simplified mean bias      = 0.967301
+  Corrected simplified bias = 1.120403
+
+95% absolute acceleration
+  MC mean                   = 0.112972
+  Code prediction           = 0.325887
+  Simplified prediction     = 0.154620
+  Corrected prediction      = 0.133491
+  Code mean bias            = 0.346660
+  Simplified mean bias      = 0.730645
+  Corrected simplified bias = 0.846290
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048568
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048568
+Mass ratio used in interpolation  = 0.048568
+Interpolated factor chi_0         = 0.169048
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.169048
+Residual correction lambda  = 2.908017
+Final factor chi_final      = 0.491594
+
+Peak 1-sec RMS
+  MC mean                   = 0.290796
+  Code prediction           = 0.591536
+  Simplified prediction     = 0.099998
+  Corrected prediction      = 0.290796
+  Code mean bias            = 0.491594
+  Simplified mean bias      = 2.908017
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.465617
+  Code prediction           = 0.835580
+  Simplified prediction     = 0.141253
+  Corrected prediction      = 0.410766
+  Code mean bias            = 0.557238
+  Simplified mean bias      = 3.296334
+  Corrected simplified bias = 1.133533
+
+95% absolute acceleration
+  MC mean                   = 0.317447
+  Code prediction           = 0.775767
+  Simplified prediction     = 0.131142
+  Corrected prediction      = 0.381362
+  Code mean bias            = 0.409204
+  Simplified mean bias      = 2.420641
+  Corrected simplified bias = 0.832403
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093540
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093540
+Mass ratio used in interpolation  = 0.093540
+Interpolated factor chi_0         = 0.086934
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.086934
+Residual correction lambda  = 4.516488
+Final factor chi_final      = 0.392638
+
+Peak 1-sec RMS
+  MC mean                   = 0.295918
+  Code prediction           = 0.753667
+  Simplified prediction     = 0.065519
+  Corrected prediction      = 0.295918
+  Code mean bias            = 0.392638
+  Simplified mean bias      = 4.516488
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.509388
+  Code prediction           = 1.064599
+  Simplified prediction     = 0.092550
+  Corrected prediction      = 0.418002
+  Code mean bias            = 0.478478
+  Simplified mean bias      = 5.503908
+  Corrected simplified bias = 1.218626
+
+95% absolute acceleration
+  MC mean                   = 0.336949
+  Code prediction           = 0.988392
+  Simplified prediction     = 0.085925
+  Corrected prediction      = 0.388080
+  Code mean bias            = 0.340906
+  Simplified mean bias      = 3.921420
+  Corrected simplified bias = 0.868245
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.152428
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.152428
+Mass ratio used in interpolation  = 0.152428
+Interpolated factor chi_0         = 0.051714
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.051714
+Residual correction lambda  = 7.190067
+Final factor chi_final      = 0.371827
+
+Peak 1-sec RMS
+  MC mean                   = 0.327318
+  Code prediction           = 0.880295
+  Simplified prediction     = 0.045524
+  Corrected prediction      = 0.327318
+  Code mean bias            = 0.371827
+  Simplified mean bias      = 7.190067
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.603096
+  Code prediction           = 1.243469
+  Simplified prediction     = 0.064305
+  Corrected prediction      = 0.462356
+  Code mean bias            = 0.485011
+  Simplified mean bias      = 9.378712
+  Corrected simplified bias = 1.304398
+
+95% absolute acceleration
+  MC mean                   = 0.405106
+  Code prediction           = 1.154458
+  Simplified prediction     = 0.059702
+  Corrected prediction      = 0.429259
+  Code mean bias            = 0.350906
+  Simplified mean bias      = 6.785513
+  Corrected simplified bias = 0.943734
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.187838
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.187838
+Mass ratio used in interpolation  = 0.187838
+Interpolated factor chi_0         = 0.037158
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.037158
+Residual correction lambda  = 9.531362
+Final factor chi_final      = 0.354167
+
+Peak 1-sec RMS
+  MC mean                   = 0.350143
+  Code prediction           = 0.988638
+  Simplified prediction     = 0.036736
+  Corrected prediction      = 0.350143
+  Code mean bias            = 0.354167
+  Simplified mean bias      = 9.531362
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.666186
+  Code prediction           = 1.396510
+  Simplified prediction     = 0.051892
+  Corrected prediction      = 0.494598
+  Code mean bias            = 0.477036
+  Simplified mean bias      = 12.838018
+  Corrected simplified bias = 1.346924
+
+95% absolute acceleration
+  MC mean                   = 0.452859
+  Code prediction           = 1.296544
+  Simplified prediction     = 0.048177
+  Corrected prediction      = 0.459193
+  Code mean bias            = 0.349282
+  Simplified mean bias      = 9.399896
+  Corrected simplified bias = 0.986207
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.229083
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.229083
+Mass ratio used in interpolation  = 0.229083
+Interpolated factor chi_0         = 0.023096
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.023096
+Residual correction lambda  = 14.693078
+Final factor chi_final      = 0.339347
+
+Peak 1-sec RMS
+  MC mean                   = 0.360877
+  Code prediction           = 1.063445
+  Simplified prediction     = 0.024561
+  Corrected prediction      = 0.360877
+  Code mean bias            = 0.339347
+  Simplified mean bias      = 14.693078
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.707565
+  Code prediction           = 1.502179
+  Simplified prediction     = 0.034694
+  Corrected prediction      = 0.509760
+  Code mean bias            = 0.471026
+  Simplified mean bias      = 20.394495
+  Corrected simplified bias = 1.388034
+
+95% absolute acceleration
+  MC mean                   = 0.479306
+  Code prediction           = 1.394649
+  Simplified prediction     = 0.032210
+  Corrected prediction      = 0.473270
+  Code mean bias            = 0.343675
+  Simplified mean bias      = 14.880455
+  Corrected simplified bias = 1.012753
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.290490
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.000000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.290490
+Mass ratio used in interpolation  = 0.290490
+Interpolated factor chi_0         = 0.007494
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.007494
+Residual correction lambda  = 19.945869
+Final factor chi_final      = 0.149467
+
+Peak 1-sec RMS
+  MC mean                   = 0.402541
+  Code prediction           = 2.693179
+  Simplified prediction     = 0.020182
+  Corrected prediction      = 0.402541
+  Code mean bias            = 0.149467
+  Simplified mean bias      = 19.945869
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.816946
+  Code prediction           = 3.804276
+  Simplified prediction     = 0.028508
+  Corrected prediction      = 0.568614
+  Code mean bias            = 0.214744
+  Simplified mean bias      = 28.656875
+  Corrected simplified bias = 1.436732
+
+95% absolute acceleration
+  MC mean                   = 0.545429
+  Code prediction           = 3.531955
+  Simplified prediction     = 0.026467
+  Corrected prediction      = 0.527911
+  Code mean bias            = 0.154427
+  Simplified mean bias      = 20.607751
+  Corrected simplified bias = 1.033184
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 4.250 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008524
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008524
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.511302
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.511302
+Residual correction lambda  = 1.020850
+Final factor chi_final      = 0.521963
+
+Peak 1-sec RMS
+  MC mean                   = 0.110393
+  Code prediction           = 0.211496
+  Simplified prediction     = 0.108138
+  Corrected prediction      = 0.110393
+  Code mean bias            = 0.521963
+  Simplified mean bias      = 1.020850
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.169664
+  Code prediction           = 0.293617
+  Simplified prediction     = 0.150127
+  Corrected prediction      = 0.153257
+  Code mean bias            = 0.577841
+  Simplified mean bias      = 1.130136
+  Corrected simplified bias = 1.107054
+
+95% absolute acceleration
+  MC mean                   = 0.123164
+  Code prediction           = 0.266570
+  Simplified prediction     = 0.136298
+  Corrected prediction      = 0.139140
+  Code mean bias            = 0.462031
+  Simplified mean bias      = 0.903636
+  Corrected simplified bias = 0.885180
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048107
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048107
+Mass ratio used in interpolation  = 0.048107
+Interpolated factor chi_0         = 0.177535
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.177535
+Residual correction lambda  = 2.419397
+Final factor chi_final      = 0.429529
+
+Peak 1-sec RMS
+  MC mean                   = 0.216251
+  Code prediction           = 0.503461
+  Simplified prediction     = 0.089382
+  Corrected prediction      = 0.216251
+  Code mean bias            = 0.429529
+  Simplified mean bias      = 2.419397
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.350153
+  Code prediction           = 0.698947
+  Simplified prediction     = 0.124088
+  Corrected prediction      = 0.300218
+  Code mean bias            = 0.500973
+  Simplified mean bias      = 2.821818
+  Corrected simplified bias = 1.166331
+
+95% absolute acceleration
+  MC mean                   = 0.213797
+  Code prediction           = 0.634564
+  Simplified prediction     = 0.112657
+  Corrected prediction      = 0.272563
+  Code mean bias            = 0.336919
+  Simplified mean bias      = 1.897757
+  Corrected simplified bias = 0.784392
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.093612
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.093612
+Mass ratio used in interpolation  = 0.093612
+Interpolated factor chi_0         = 0.073995
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.073995
+Residual correction lambda  = 5.218895
+Final factor chi_final      = 0.386172
+
+Peak 1-sec RMS
+  MC mean                   = 0.247694
+  Code prediction           = 0.641409
+  Simplified prediction     = 0.047461
+  Corrected prediction      = 0.247694
+  Code mean bias            = 0.386172
+  Simplified mean bias      = 5.218895
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.424047
+  Code prediction           = 0.890459
+  Simplified prediction     = 0.065890
+  Corrected prediction      = 0.343870
+  Code mean bias            = 0.476211
+  Simplified mean bias      = 6.435724
+  Corrected simplified bias = 1.233158
+
+95% absolute acceleration
+  MC mean                   = 0.265137
+  Code prediction           = 0.808434
+  Simplified prediction     = 0.059820
+  Corrected prediction      = 0.312195
+  Code mean bias            = 0.327964
+  Simplified mean bias      = 4.432245
+  Corrected simplified bias = 0.849269
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.139155
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.139155
+Mass ratio used in interpolation  = 0.139155
+Interpolated factor chi_0         = 0.037806
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.037806
+Residual correction lambda  = 9.747232
+Final factor chi_final      = 0.368506
+
+Peak 1-sec RMS
+  MC mean                   = 0.279311
+  Code prediction           = 0.757955
+  Simplified prediction     = 0.028655
+  Corrected prediction      = 0.279311
+  Code mean bias            = 0.368506
+  Simplified mean bias      = 9.747232
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.520783
+  Code prediction           = 1.052258
+  Simplified prediction     = 0.039782
+  Corrected prediction      = 0.387764
+  Code mean bias            = 0.494919
+  Simplified mean bias      = 13.090934
+  Corrected simplified bias = 1.343041
+
+95% absolute acceleration
+  MC mean                   = 0.329155
+  Code prediction           = 0.955329
+  Simplified prediction     = 0.036117
+  Corrected prediction      = 0.352045
+  Code mean bias            = 0.344546
+  Simplified mean bias      = 9.113463
+  Corrected simplified bias = 0.934980
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.195212
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.195212
+Mass ratio used in interpolation  = 0.195212
+Interpolated factor chi_0         = 0.013543
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.013543
+Residual correction lambda  = 26.085504
+Final factor chi_final      = 0.353273
+
+Peak 1-sec RMS
+  MC mean                   = 0.295423
+  Code prediction           = 0.836245
+  Simplified prediction     = 0.011325
+  Corrected prediction      = 0.295423
+  Code mean bias            = 0.353273
+  Simplified mean bias      = 26.085504
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.591006
+  Code prediction           = 1.160947
+  Simplified prediction     = 0.015723
+  Corrected prediction      = 0.410132
+  Code mean bias            = 0.509072
+  Simplified mean bias      = 37.589598
+  Corrected simplified bias = 1.441015
+
+95% absolute acceleration
+  MC mean                   = 0.381623
+  Code prediction           = 1.054006
+  Simplified prediction     = 0.014274
+  Corrected prediction      = 0.372352
+  Code mean bias            = 0.362069
+  Simplified mean bias      = 26.734991
+  Corrected simplified bias = 1.024898
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.253337
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.253337
+Mass ratio used in interpolation  = 0.253337
+Interpolated factor chi_0         = 0.000000
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.000000
+Residual correction lambda  = 309083836333.968018
+Final factor chi_final      = 0.000000
+
+Peak 1-sec RMS
+  MC mean                   = 0.309084
+  Code prediction           = 0.887589
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.348228
+  Simplified mean bias      = 309083836333.968018
+  Corrected simplified bias = 309083836333.968018
+
+Peak absolute acceleration
+  MC mean                   = 0.641109
+  Code prediction           = 1.232228
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.520284
+  Simplified mean bias      = 641108503764.291138
+  Corrected simplified bias = 641108503764.291138
+
+95% absolute acceleration
+  MC mean                   = 0.412306
+  Code prediction           = 1.118721
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.368551
+  Simplified mean bias      = 412305518503.940918
+  Corrected simplified bias = 412305518503.940918
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.301757
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.250000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.301757
+Mass ratio used in interpolation  = 0.290000
+Interpolated factor chi_0         = 0.000000
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.000000
+Residual correction lambda  = 332024620860.097839
+Final factor chi_final      = 0.000000
+
+Peak 1-sec RMS
+  MC mean                   = 0.332025
+  Code prediction           = 2.272345
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.146115
+  Simplified mean bias      = 332024620860.097839
+  Corrected simplified bias = 332024620860.097839
+
+Peak absolute acceleration
+  MC mean                   = 0.721437
+  Code prediction           = 3.154665
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.228689
+  Simplified mean bias      = 721436545266.752563
+  Corrected simplified bias = 721436545266.752563
+
+95% absolute acceleration
+  MC mean                   = 0.477775
+  Code prediction           = 2.864071
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.166817
+  Simplified mean bias      = 477774595359.249268
+  Corrected simplified bias = 477774595359.249268
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 4.500 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008746
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.008746
+Mass ratio used in interpolation  = 0.009000
+Interpolated factor chi_0         = 0.510847
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.510847
+Residual correction lambda  = 1.987871
+Final factor chi_final      = 1.015498
+
+Peak 1-sec RMS
+  MC mean                   = 0.057498
+  Code prediction           = 0.056620
+  Simplified prediction     = 0.028924
+  Corrected prediction      = 0.057498
+  Code mean bias            = 1.015498
+  Simplified mean bias      = 1.987871
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.093833
+  Code prediction           = 0.080024
+  Simplified prediction     = 0.040880
+  Corrected prediction      = 0.081264
+  Code mean bias            = 1.172554
+  Simplified mean bias      = 2.295315
+  Corrected simplified bias = 1.154660
+
+95% absolute acceleration
+  MC mean                   = 0.064484
+  Code prediction           = 0.071014
+  Simplified prediction     = 0.036277
+  Corrected prediction      = 0.072115
+  Code mean bias            = 0.908045
+  Simplified mean bias      = 1.777528
+  Corrected simplified bias = 0.894187
+
+----------------------------------------------------------------------
+Running density = 0.1667
+----------------------------------------------------------------------
+Target density   = 0.1667
+Actual density   = 0.1700
+Total peds       = 17
+Tocity, Outcity  = 8, 9
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.048332
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.048332
+Mass ratio used in interpolation  = 0.048332
+Interpolated factor chi_0         = 0.110928
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.110928
+Residual correction lambda  = 9.690794
+Final factor chi_final      = 1.074979
+
+Peak 1-sec RMS
+  MC mean                   = 0.144889
+  Code prediction           = 0.134783
+  Simplified prediction     = 0.014951
+  Corrected prediction      = 0.144889
+  Code mean bias            = 1.074979
+  Simplified mean bias      = 9.690794
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.250715
+  Code prediction           = 0.190496
+  Simplified prediction     = 0.021131
+  Corrected prediction      = 0.204779
+  Code mean bias            = 1.316119
+  Simplified mean bias      = 11.864638
+  Corrected simplified bias = 1.224321
+
+95% absolute acceleration
+  MC mean                   = 0.146676
+  Code prediction           = 0.169048
+  Simplified prediction     = 0.018752
+  Corrected prediction      = 0.181723
+  Code mean bias            = 0.867662
+  Simplified mean bias      = 7.821861
+  Corrected simplified bias = 0.807143
+
+----------------------------------------------------------------------
+Running density = 0.3333
+----------------------------------------------------------------------
+Target density   = 0.3333
+Actual density   = 0.3300
+Total peds       = 33
+Tocity, Outcity  = 16, 17
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.091969
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.091969
+Mass ratio used in interpolation  = 0.091969
+Interpolated factor chi_0         = 0.024245
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.024245
+Residual correction lambda  = 43.821798
+Final factor chi_final      = 1.062445
+
+Peak 1-sec RMS
+  MC mean                   = 0.182710
+  Code prediction           = 0.171972
+  Simplified prediction     = 0.004169
+  Corrected prediction      = 0.182710
+  Code mean bias            = 1.062445
+  Simplified mean bias      = 43.821798
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.330369
+  Code prediction           = 0.243056
+  Simplified prediction     = 0.005893
+  Corrected prediction      = 0.258234
+  Code mean bias            = 1.359228
+  Simplified mean bias      = 56.062946
+  Corrected simplified bias = 1.279339
+
+95% absolute acceleration
+  MC mean                   = 0.190749
+  Code prediction           = 0.215691
+  Simplified prediction     = 0.005229
+  Corrected prediction      = 0.229160
+  Code mean bias            = 0.884363
+  Simplified mean bias      = 36.476585
+  Corrected simplified bias = 0.832384
+
+----------------------------------------------------------------------
+Running density = 0.5000
+----------------------------------------------------------------------
+Target density   = 0.5000
+Actual density   = 0.5000
+Total peds       = 50
+Tocity, Outcity  = 25, 25
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.140103
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.140103
+Mass ratio used in interpolation  = 0.140103
+Interpolated factor chi_0         = 0.002531
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.002531
+Residual correction lambda  = 422.638675
+Final factor chi_final      = 1.069633
+
+Peak 1-sec RMS
+  MC mean                   = 0.216863
+  Code prediction           = 0.202745
+  Simplified prediction     = 0.000513
+  Corrected prediction      = 0.216863
+  Code mean bias            = 1.069633
+  Simplified mean bias      = 422.638675
+  Corrected simplified bias = 1.000000
+
+Peak absolute acceleration
+  MC mean                   = 0.415661
+  Code prediction           = 0.286551
+  Simplified prediction     = 0.000725
+  Corrected prediction      = 0.306504
+  Code mean bias            = 1.450568
+  Simplified mean bias      = 573.155816
+  Corrected simplified bias = 1.356137
+
+95% absolute acceleration
+  MC mean                   = 0.254765
+  Code prediction           = 0.254288
+  Simplified prediction     = 0.000644
+  Corrected prediction      = 0.271995
+  Code mean bias            = 1.001874
+  Simplified mean bias      = 395.865633
+  Corrected simplified bias = 0.936653
+
+----------------------------------------------------------------------
+Running density = 0.6667
+----------------------------------------------------------------------
+Target density   = 0.6667
+Actual density   = 0.6700
+Total peds       = 67
+Tocity, Outcity  = 33, 34
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.188790
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.188790
+Mass ratio used in interpolation  = 0.188790
+Interpolated factor chi_0         = 0.000000
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.000000
+Residual correction lambda  = 242814953815.275879
+Final factor chi_final      = 0.000000
+
+Peak 1-sec RMS
+  MC mean                   = 0.242815
+  Code prediction           = 0.225083
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 1.078780
+  Simplified mean bias      = 242814953815.275879
+  Corrected simplified bias = 242814953815.275879
+
+Peak absolute acceleration
+  MC mean                   = 0.494080
+  Code prediction           = 0.318121
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 1.553118
+  Simplified mean bias      = 494080048011.511536
+  Corrected simplified bias = 494080048011.511536
+
+95% absolute acceleration
+  MC mean                   = 0.306644
+  Code prediction           = 0.282304
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 1.086217
+  Simplified mean bias      = 306644053487.879517
+  Corrected simplified bias = 306644053487.879517
+
+----------------------------------------------------------------------
+Running density = 0.8333
+----------------------------------------------------------------------
+Target density   = 0.8333
+Actual density   = 0.8300
+Total peds       = 83
+Tocity, Outcity  = 41, 42
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.232747
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.232747
+Mass ratio used in interpolation  = 0.232747
+Interpolated factor chi_0         = 0.000000
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.000000
+Residual correction lambda  = 254620874136.322418
+Final factor chi_final      = 0.000000
+
+Peak 1-sec RMS
+  MC mean                   = 0.254621
+  Code prediction           = 0.241588
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 1.053947
+  Simplified mean bias      = 254620874136.322418
+  Corrected simplified bias = 254620874136.322418
+
+Peak absolute acceleration
+  MC mean                   = 0.536999
+  Code prediction           = 0.341449
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 1.572706
+  Simplified mean bias      = 536998654138.255310
+  Corrected simplified bias = 536998654138.255310
+
+95% absolute acceleration
+  MC mean                   = 0.342433
+  Code prediction           = 0.303006
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 1.130120
+  Simplified mean bias      = 342432794863.668152
+  Corrected simplified bias = 342432794863.668152
+
+----------------------------------------------------------------------
+Running density = 1.0000
+----------------------------------------------------------------------
+Target density   = 1.0000
+Actual density   = 1.0000
+Total peds       = 100
+Tocity, Outcity  = 50, 50
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.259185
+
+Modification-factor interpolation
+---------------------------------
+Target bf                        = 4.500000
+Target damping                   = 0.005000
+MC mean modal mass ratio          = 0.259185
+Mass ratio used in interpolation  = 0.259185
+Interpolated factor chi_0         = 0.000000
+
+Residual bias correction
+------------------------
+Calibration measure        = Peak 1-sec RMS
+Correction statistic       = mean
+Initial factor chi_0        = 0.000000
+Residual correction lambda  = 282324392282.547241
+Final factor chi_final      = 0.000000
+
+Peak 1-sec RMS
+  MC mean                   = 0.282324
+  Code prediction           = 0.628903
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.448916
+  Simplified mean bias      = 282324392282.547241
+  Corrected simplified bias = 282324392282.547241
+
+Peak absolute acceleration
+  MC mean                   = 0.609511
+  Code prediction           = 0.888861
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.685721
+  Simplified mean bias      = 609510557959.458618
+  Corrected simplified bias = 609510557959.458618
+
+95% absolute acceleration
+  MC mean                   = 0.393379
+  Code prediction           = 0.788785
+  Simplified prediction     = 0.000000
+  Corrected prediction      = 0.000000
+  Code mean bias            = 0.498716
+  Simplified mean bias      = 393379442172.134949
+  Corrected simplified bias = 393379442172.134949
+
+================================================================================
+RUNNING BRIDGE FREQUENCY = 4.600 Hz
+================================================================================
+
+----------------------------------------------------------------------
+Running density = 0.0333
+----------------------------------------------------------------------
+Target density   = 0.0333
+Actual density   = 0.0300
+Total peds       = 3
+Tocity, Outcity  = 1, 2
+MC acceleration shape       = (48, 10001)
+Mean modal mass ratio       = 0.008610

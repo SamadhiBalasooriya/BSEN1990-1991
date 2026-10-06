@@ -14,7 +14,7 @@ import timeit
 
 
 def run_simulation(args):
-    seed, peddamp, pedBodyF, Tocity, Outcity, Length, Width = args
+    seed, peddamp, pedBodyF, Tocity, Outcity, Length, Width, simulation_duration = args
     if seed is not None:
         np.random.seed(seed)  # Ensures independent randomness per process
     #_____________________________________________________________Crowd Generator________________________________________________________________________________
@@ -24,7 +24,13 @@ def run_simulation(args):
     meanvelocity = 1.1
     stddev = 0.03
 
-    t =np.arange(0, (length+88) / meanvelocity, hht)
+    #simulation_duration = 700.0  # seconds
+
+    t = np.arange(
+        0.0,
+        simulation_duration,
+        hht
+    )
     totalTimeSteps = np.size(t)
     print(np.size(t))
 
@@ -244,7 +250,7 @@ def run_simulation(args):
          
              iSync=0.3)
 
-    _,_,ddu_hsi = Newmarksuper_HSIsocialeeklo(Human,Bridge,numped,numbers,length,hht,pedvelocity,mped,kped,cped,xrb,modalmass,func_list)
+    _,_,ddu_hsi = Newmarksuper_HSIsocialeeklo(Human,Bridge,numped,numbers,length,hht,pedvelocity,mped,kped,cped,xrb,modalmass,func_list, simulation_duration)
     print("complete")
     accn_hsi = accdyn_super_social(Bridge,ddu_hsi,x_interested,modalmass,func_list)
     #vertical_displacement = accdyn_super(Bridge,u,25,hht)

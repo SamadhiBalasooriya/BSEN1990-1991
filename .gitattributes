@@ -1,0 +1,7 @@
+simulation_results.pkl filter=lfs diff=lfs merge=lfs -text
+force_factors.pkl filter=lfs diff=lfs merge=lfs -text
+force_factors2.pkl filter=lfs diff=lfs merge=lfs -text
+force_factors3.pkl filter=lfs diff=lfs merge=lfs -text
+force_factors_final.pkl filter=lfs diff=lfs merge=lfs -text
+force_factors_final2.pkl filter=lfs diff=lfs merge=lfs -text
+New_modification_factor_results.pkl filter=lfs diff=lfs merge=lfs -text

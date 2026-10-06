@@ -1,0 +1,101 @@
+﻿No,cross_section,span_m,width_m,bridge_type,girder_material,deck_material,lateral_natural_frequency_Hz,vertical_natural_frequency_Hz,lateral_damping_ratio,vertical_damping_ratio
+1,box,25,3,girder,steel,steel,1.04,2.44,,
+2,GFRP,18,4,girder,GFRP,steel,2.82,8.5,,
+3,box,60,4.5,girder,steel,steel,2.2,2.67,,
+4,box,71.4,5,girder,steel,steel,0.566,1.968,,
+5,box,45,4.5,arch,steel,steel,0.5855,1.55,,
+6,CFST-CSW,31,4,girder,steel-concrete composite,concrete,5.417,3.112,,
+7,section steel,125,3,suspension,steel,mixed,0.569,0.492,,
+8,section steel,16,4,girder,steel,timber,0.7183,2.5487,,
+9,section steel,72,7.38,cable-stayed,steel,concrete,1.145,0.222,0.02,
+10,box,216.7,3.8,suspension,steel,steel,1.154,0.504,0.005,0.005
+11,box,198.15,15,arch,steel,steel,1.296,0.54,,
+12,box,84.6,2.5,arch,steel,steel,1.629,1.311,,
+13,box,100,2.4,arch,steel,steel,1.21,2.2,,
+14,box,41.85,4,cable-stayed,steel,steel,3.417,2.072,,0.004
+15,box,200,6,cable-stayed,steel,steel,0.599,1.338,0.005,0.005
+16,box,64,5,girder,steel,steel,2.49,1.97,,
+17,box,120,9,arch,steel,epoxy resin,2.7725,1.6647,,0.02
+18,box,130,12.94,arch,steel,concrete,1.2491,0.6965,0.005,0.005
+19,box,125,7.6,girder,steel,steel,2.141,1.118,0.01325,0.00249
+20,steel truss,65.729,4,girder,steel,concrete,unknown,1.9,,0.01
+21,steel-concrete composite,430,6,suspension,steel-concrete composite,reinforced glass,0.157,0.204,,
+22,steel tubular truss,416,4.4,suspension,steel,reinforced glass,0.1664,0.1345,,
+23,steel-concrete composite,580,4.6,suspension,steel-concrete composite,reinforced glass,0.185,0.19,0.02,0.02
+24,steel-concrete composite,68.27,5.3,girder,steel-concrete composite,concrete,12.35,2.65,0.02,0.02
+25,steel-concrete composite,36.5,6.15,girder,steel-concrete composite,concrete,3.426,2.345,,
+26,steel-concrete composite,338,3.7125,suspension,steel-concrete composite,concrete,0.157,0.325,,
+27,precast hollow slab,122.7,4,arch,concrete,concrete,0.599,0.817,0.01,0.01
+28,girder,39.5,3,arch,glued timber,plank,3.444,1.737,0.011,0.011
+29,box,240,10,cable-stayed,steel,unknown,1.075,1.451,,
+30,unknown,103,1.8,arch,steel,steel,1.72,0.61,0.0069,0.0095
+31,box,400,8.5,suspension,steel,unknown,0.616,1.703,,
+32,box,70.5,7.265,suspension,steel,steel,0.91,0.84,0.02,0.02
+33,steel-concrete composite,192,2.3,suspension,steel-concrete composite,reinforced glass,0.195,0.312,0.02,0.02
+34,box,110,9.6,girder,steel,steel,2.266,1.114,0.005,0.005
+35,box,45,7,cable-stayed,steel,steel,1.444,2.062,,
+36,section steel,420,4,suspension,steel,concrete,0.23,0.25,0.005,0.005
+37,section steel,442,2,suspension,steel,reinforced glass,0.262,0.279,0.0015,0.0015
+38,box and section steel,90,9,suspension,steel,mixed,5.02,2.2574,,
+39,box,110,6,cable-stayed,steel,mixed,1.98,1.475,,
+40,box,31.7,4,girder,steel,floor tile,1.04,2.49,,
+41,unknown,125,1.8,arch,unknown,unknown,0.32,2.05,,
+42,box,46,3.7,girder,concrete,concrete,5.15,2.12,,0.015
+43,section steel,120,2.1,suspension,steel,steel,0.083,0.136,,
+44,steel truss,30,2,arch,steel,steel,2.74,5.06,,
+45,prestressed concrete beam,100,5,arch,concrete,concrete,0.99,3.11,,
+46,box,60,9,arch,steel,unknown,2.115,1.465,,0.005
+47,steel truss,42.06,4.7,girder,steel,mixed,2.56,4.09,,0.0038
+48,box,74.2,3.1,suspension,steel,steel,1.267,1.166,,
+49,box,42.2,3.5,girder,steel,steel,1.22,2.1,0.02,0.02
+50,steel truss,62.9,2.4,girder,steel,mixed,1.66,1.86,,0.0058
+51,box,120,4,suspension,steel,steel,0.455,0.742,,
+52,section steel,369,3.6,suspension,steel,timber,0.297,0.375,0.005,0.005
+53,section steel,96,4,suspension,steel,reinforced glass,0.4015,0.3883,,
+54,steel-concrete composite,72,7.38,cable-stayed,steel-concrete composite,concrete,1.347,0.569,0.01,0.01
+55,steel truss,44,5.15,girder,steel,unknown,0.601,1.571,0.005,0.005
+56,truss,30,5.4789,girder,aluminum alloy,concrete,5.2,3,,
+57,box,40,2.7,girder,steel,unknown,3.09,1.78,,
+58,steel truss,10,2.4,girder,steel,timber,2.23,5.03,0.0325,0.0325
+59,section steel,12.95,5.4789,girder,steel,timber,10.9,10.21,,
+60,box,83,4,girder,steel,steel,1.574,1.22,,
+61,box,40,5.5,arch,steel,rubber plate,6.3025,3.6895,,
+62,box,33,5.5,cable-stayed,steel,steel,3.309,3.681,0.00413,0.00413
+63,box,40.3,5.5,arch,steel,mixed,6.2,4.875,,
+64,steel truss,32.7,5,girder,steel,unknown,2.82,6.05,,
+65,steel truss,60,7.5,cable-stayed,steel,reinforced glass,0.614,0.366,,
+66,steel truss,100,7.5,girder,steel,unknown,1.085,2.096,0.02,0.02
+67,box,60,7,arch,steel,steel,4.678,1.654,,
+68,box,44,4.7,girder,concrete,concrete,3.22,1.88,,0.015
+69,box,72,4.5,cable-stayed,steel,rubber plate,2.141,1.475,0.004,0.004
+70,steel truss,68.75,5,girder,steel-concrete composite,concrete,1.99,1.96,0.005,0.005
+71,steel truss,81,7,cable-stayed,steel,mixed,1.61,2.96,0.004,0.004
+72,section steel,36,5,arch,steel,mixed,10.75,2.5,,
+73,box,51,6,arch,steel,steel,8.487,3.18,,
+74,steel tubular truss,35,2.4,girder,steel,steel,1.374,2.282,,
+75,box,80,6,cable-stayed,steel,steel,unknown,1.136,,
+76,box,140,6,girder,steel,steel,1.444,0.774,0.005,0.005
+77,section steel,135,9.6,cable-stayed,steel,steel,1.042,0.444,,
+78,steel tubular truss,58.7,6,cable-stayed,steel,steel,unknown,1.7,,
+79,box,79,3,suspension,steel,steel,3.889,1.778,,
+80,box,79.4,3.75,cable-stayed,steel,mixed,2.2,4.074,,
+81,section steel,183,4.4,suspension,steel,mixed,0.4389,0.4885,0.02,0.02
+82,box and section steel,23.5,2.4,girder,steel,concrete,3.009,1.772,0.005,0.005
+83,box,64,14.6,girder,concrete,concrete,0.987,1.64,,0.008
+84,box,85,5,girder,steel,mixed,1.25,1.353,,
+85,box,40,4.5,girder,steel,concrete,3.857,3.467,,
+86,section steel,80,4,suspension,steel,steel,1.04,1.42,,
+87,box,75,5,girder,steel,unknown,1.64,2.60,,0.004
+88,steel truss,60.6,6,girder,steel,mixed,2.06,2.65,,0.0109
+89,giant star and variable cross section steel beams,124,36.5,cable-stayed,steel,reinforced glass,0.684,0.549,,
+90,unknown,46.412,3.7,girder,unknown,unknown,5.15,2.12,0.015,0.015
+91,steel-concrete composite,49.45,8.475,arch,steel-concrete composite,unknown,0.57,1.57,,
+92,section steel,84,1.8,suspension,steel,steel,0.2705,0.4182,,
+93,section steel,65,3,suspension,steel,steel,3.0646,0.3897,,
+94,section steel,210,3,suspension,steel,reinforced glass,0.2,0.5,,
+95,box,49,3,girder,steel,unknown,unknown,2.466,,
+96,box,55,4.5,girder,steel,unknown,5.65,1.87,0.03,0.03
+97,box,135,9.6,cable-stayed,steel,steel,2.35,0.31,,
+98,wood beam,100,2.5,arch,glued timber,timber,2.692,2.126,,
+99,unknown,15,17.67,girder,unknown,unknown,unknown,2.9,,
+100,unknown,38,5,girder,unknown,unknown,unknown,2.16,,0.01

@@ -1,0 +1,66 @@
+﻿no,source_section,name,country_or_place,description_for_form,construction_year,girder_material,main_span_m,modal_mass_t,frequency_hz,damping_ratio_percent,test_method
+1,Steel footbridges,Postiguet Footbridge [43],Spain,Continuous girder bridge with six spans of various length; Width: 2.2 m,1993,Steel,24,N/A,3.67,N/A,OMA
+2,Steel footbridges,Zlotnicka Footbridge [44],Poland,Cable stayed footbridge; Length: 68 m; Width: 3.0 m,1999,Steel,34,N/A,2.07,0.43,OMA
+3,Steel footbridges,Solferino Footbridge without TMD damper [45],France,Steel arch bridge; Length: 140 m; Width: 12–14.8 m; Weight: 900 t,1999,Steel,106,N/A,1.22,0.3–0.5,N/A
+4,Steel footbridges,Eeklo Footbridge [46],Belgium,Continuous steel bridge with U-shaped cross section; Length: 96 m; Width: 3 m,2002,Steel,42,N/A,2.99,0.19,OMA
+5,Steel footbridges,Changi Mezzanine Bridge [47],Singapore,A flat arch footbridge; Length: 200 m; Weight: 1300 t,2002,Steel,140,402,1.12,0.4,ST
+6,Steel footbridges,"Wetteren Footbridge [48,49]",Belgium,A tied-arch bridge; Length: 105.5 m,2003,Steel,75.2,N/A,1.67,0.26,OMAX
+7,Steel footbridges,Erzbahnschwinge Footbridge [50],Germany,A suspension bridge with a S-shape; Width: 3 m,2003 [93],Steel,130,N/A,1.80,0.34,N/A
+8,Steel footbridges,Ninove Footbridge [46],Belgium,Cable-stayed bridge with a steel truss girder; Length: 58.5 m,2004,Steel,36,N/A,2.97,1.18,OMA
+9,Steel footbridges,Valladolid Footbridge [51],Spain,A continuous truss bridge; Total length: 234 m,2004,Steel,111,N/A,3.52,0.41,OMA
+10,Steel footbridges,Trabzon Footbridge A [52],Turkey,A steel truss bridge; Length: 18.4 m; Width: 2.3 m,2006,Steel,12,N/A,9.39,1.0,OMA
+11,Steel footbridges,Viana Footbridge [53],Portugal,A movable cable-stayed bridge; Length: 44.7 m; Width: 2.5 m,2007,Steel,36.3,N/A,1.03,N/A,OMA
+12,Steel footbridges,"Weil-am-Rhein Footbridge [54,55]",Germany,Steel arch bridge; Length: 230 m; Width: 5–5.5 m,2007,Steel,230,N/A,0.7,N/A,OMA
+13,Steel footbridges,Guarda Footbridge [56],Portugal,Tied-arch footbridge of total length 123 m,2007,Steel,90,N/A,2.19,0.34,OMA
+14,Steel footbridges,Leuven footbridge [46],Belgium,Steel continuous girder bridge; Length: 23 m; Width: 5 m,2009,Steel,14,N/A,3.08,2.47,OMA
+15,Steel footbridges,Anderlecht footbridge [46],Belgium,Steel arch bridge; Length: 57 m; Width: 4.8 m,2010,Steel,30,N/A,3.24,0.31,OMA
+16,Steel footbridges,Helix Bridge [57],Singapore,Continuous girder bridge; Length: 280 m; Width: 6 m,2010,Steel,65,277,1.90,0.5,ST
+17,Steel footbridges,Mechelen Footbridge [46],Belgium,Steel bridge with L-shape cross section; Length: 31 m; Width: 3 m,2011,Steel,29,N/A,3.75,1.08,OMA
+18,Steel footbridges,Brugge Footbridge [46],Belgium,Continuous steel bridge with L-shape cross section; Length: 57 m; Width: 2.7 m,2012,Steel,4.8,N/A,1.64,0.24,OMA
+19,Steel footbridges,Seriate Footbridge [58],Italy,Suspension footbridge; Length: 63.9 m; Width: 2.5–5.0 m,2012,Steel,63.9,N/A,1.03,0.75,OMA
+20,Steel footbridges,A41 All Saints Way Footbridge [59],England,Cable stayed bridge; Length: 51.15 m,2012,Steel,38.5,N/A,2.9,0.45,OMA
+21,Steel footbridges,Serra Footbridge [60],Italy,Tied-arch bridge; Length: 120 m,2012,Steel,90,N/A,1.28,0.6,OMA
+22,Steel footbridges,Bears’ Cage Footbridge [61],Belgium,Butterfly-shaped bridge; Length: 23 m; Width: 4–14 m,2014,Steel,23,N/A,6.06,5.3,OMA
+23,Steel footbridges,Charleroi Footbridge [62],Belgium,A single span bridge; Length: 38.25 m; Width: 13.35 m,2014,Steel,38.25,N/A,1.66,0.41,OMA
+24,Concrete footbridges,Cekov Footbridge [64],Czech Republic,Arch bridge; Length: 80 m; Width: 3 m; Weight: 376 t,1995,Concrete,69,N/A,2.12,N/A,OMA*
+25,Concrete footbridges,Sherbrooke Footbridge [65],Canada,A post-tensioned space truss bridge; Length: 60 m; Width: 3.3 m,1997,Concrete,60,N/A,2.33,1.24,OMA*
+26,Concrete footbridges,FEUP Footbridge [48],Portugal,Stress-ribbon footbridge; Length: 58 m; Width: 3.8 m,1998,Concrete,30,N/A,0.99,0.69,OMAX
+27,Concrete footbridges,Reykjavik Footbridge A [66],Iceland,Continuous girder bridge with a spiral shape; Length: 170 m; Width: 3.26 m,2005,Concrete,27.1,46,2.33,0.9,ST
+28,Concrete footbridges,Reykjavik Footbridge B [67],Iceland,A 5-span continuous girder bridge; Length 86 m; Width: 3.26 m,2005,Concrete,23.5,N/A,3.0,0.9,OMA*
+29,Concrete footbridges,Krakow Footbridge [64],Poland,Continuous girder bridge; Length: 80 m; Width: 4 m; Weight: 472 t,2005,Concrete,40,N/A,2.44,0.81,OMA
+30,Concrete footbridges,Baker Bridge [68],England,Cable stayed footbridge; Length: 109 m; Width: 3 m; Weight: 150 t,2007,Concrete,72,55.5,0.94,0.34,HST
+31,Concrete footbridges,Texas footbridge [69],USA,A bridge of three simply supported pre-stressed reinforced concrete spans; Length: 109 m; Width 3.66 m,2008,Concrete,40,N/A,2.38,N/A,OMA*
+32,Concrete footbridges,Stanisławice Footbridge [64],Poland,Continuous rigid frame footbridge with inclined piers; Length: 62 m; Width: 4.1 m; Weight: 279 t,2011,Concrete,34,N/A,2.35,0.88,OMA*
+33,Concrete footbridges,Celakovice Footbridge [70],Czech Republic,Cable-stayed footbridge; Length: 242 m; Width: 3.64 m,2014,Concrete,156,N/A,0.72,1.9,ST
+34,Steel-concrete composite footbridges,Kochenhofsteg Footbridge [71],Germany,A single span suspension bridge with an inclined mast; Length: 42.5 m; Width: 3 m,1992,Steel-concrete,42.5,N/A,1.0,0.51,OMA*
+35,Steel-concrete composite footbridges,"Eutinger Waagsteg Bridge [71,72]",Germany,A stress ribbon bridge; Length: 50 m; Width: 2.88 m,1991,Steel-concrete,50,N/A,1.29,0.93,OMA*
+36,Steel-concrete composite footbridges,"Glacisbruecke in Minden [71,91]",Germany,A suspension bridge; Length: 138 m,1995,Steel-concrete,105,N/A,0.42,1.16,OMA*
+37,Steel-concrete composite footbridges,"Katzbuckelbruecke bridge [71,73]",Germany,A movable suspension bridge; Length: 73.7 m; Width: 3.5 m,1999,Steel-concrete,73.7,N/A,0.45,N/A,OMA*
+38,Steel-concrete composite footbridges,Trabzon Footbridge B [74],Turkey,A tied-arch bridge; Length: 35 m; Width: 3.3 m,2006,Steel-concrete,35,N/A,2.08,1.22,OMA
+39,Steel-concrete composite footbridges,Pedro e Inês footbridge [75],Portugal,An arch bridge; Length: 275 m; Width: 4 m,2006,Steel-concrete,110,N/A,1.54,0.53,OMA
+40,Steel-concrete composite footbridges,Knokke footbridge [46],Belgium,A cable stayed bridge; Length: 106 m; Width: 3 m,2008,Steel-concrete,50.1,N/A,1.55,0.14,OMA
+41,Steel-concrete composite footbridges,Rotterdam Footbridge [76],Netherlands,A six-span simply supported girder bridge; Length: 136 m; Width: 5.3 m; Weight: 721 t,2007,Steel-concrete,27,N/A,2.09,1.7,OMA
+42,Steel-concrete composite footbridges,Pasternak Footbridge [77],Italy,A cable stayed bridge with curved deck; Length: 270 m; Width: 3 m,2008,Steel-concrete,60,N/A,1.46,0.67,OMA
+43,Steel-concrete composite footbridges,De Gasperi Footbridge [60],Italy,A bridge with a steel arch supporting concrete deck; Length: 60 m; Width: 3 m,2010,Steel-concrete,60,N/A,2.17,0.5,OMA
+44,Steel-concrete composite footbridges,Ponte del Mare Footbridge (without dampers) [78],Italy,"A cable stayed bridge with two separate curved decks; Length (Width): 148 m (4.1 m) and 173 m (3.1) for cycle and foot track deck, respectively",2010,Steel-concrete,173,N/A,0.75,0.64,OMA
+45,Steel-concrete composite footbridges,Pcim Footbridge [79],Poland,Cable-stayed bridge; Length: 111 m,2011,Steel-concrete,60,N/A,1.95,1.46,OMA
+46,Steel-concrete composite footbridges,Skybridge [68],Singapore,Bridge over an atrium; Length: 21.2 m,2015,Steel,21.2,12.3,4.0,2.2,HST
+47,Timber footbridges,Marecchia River Footbridge [80],Italy,A laminated timber tied arch bridge; Length: 92 m; Width: 5 m,2000,Timber,92,N/A,1.4,4.7,ST
+48,Timber footbridges,Lardal Bridge [81],Norway,A glue-laminated timber arch bridge; Length: 130 m; Width: 2.4 m,2001,Timber,92,N/A,1.45,2.4,OMA or ST
+49,Timber footbridges,Glentress Footbridge [82],Scotland,A stress-laminated timber arch bridge; Length: 20 m; Width: 2–3 m,2004,Timber,20,N/A,3.54,3.05,OMA*
+50,Timber footbridges,Pribor Footbridge [83],Czech Republic,A cable stayed footbridge; Length: 43 m; Width: 3 m,2015,Timber,39,N/A,4.17,N/A,OMA*
+51,Aluminium footbridges,Lockmeadow Bridge [19],United Kingdom,A two-span cable-stayed footbridge; Length: 80 m; Width: 2.1 m; Weight: 26.4 t,1999,Aluminium,46,N/A,1.28,1.1,ST
+52,FRP footbridges,"Aberfeldy Bridge [3,38]",Scotland,A cable-stayed bridge; Length: 113 m; Width: 2.12 m; Weight 23 t,1992,FRP,63,2.75,1.52,0.4,N/A
+53,FRP footbridges,Parsons Bridge,Wales,A single span girder bridge; Length: 16.9 m; Width 0.78 m; Weight: 1.8 t,1995,FRP,16.9,0.645,4.75,2.3,IH
+54,FRP footbridges,Delft Bridge A,Netherlands,A two-span girder bridge; Length: 25; Width: 2 m; Weight: 4.5 t,2016 (Design),FRP,15,3.161,4.78,0.65,IH
+55,FRP footbridges,Delft Bridge B,Netherlands,A girder bridge; Length: 14.9 m; Width: 4.5 m; Weight: 6.6 t,2015 (Design),FRP,14.9,3.26,6.12,7.9,IH
+56,FRP footbridges,Pontresina Bridge (Bonded) [39],Switzerland,A removable truss bridge; Length: 12.5 m; Width: 1.93 m; Weight: 1.68 t,1997,FRP,12.5,N/A,13,5.17,OMA
+57,FRP footbridges,Halgavor Bridge,England,A suspension bridge; Length: 47 m; Width: 3.5 m; Weight (deck): 8.6 t,2001,FRP,47,N/A,1.99,1.5,OMA
+58,FRP footbridges,Wilcott Bridge,England,A suspension bridge; Length: 51.3; Width: 2.1 m; Weight (deck including ballast): 31 t,2003,FRP,51.3,N/A,0.96,2.49,OMA
+59,FRP footbridges,St Austell Footbridge,England,A three-span simply supported bridge; Length: 25 m; Width: 1.42 m; Weight (14 m span): 5 t,2007,FRP,14,2.674,11.93,1.8,IH
+60,FRP footbridges,Hakui Bridge [40],Japan,A single-span bridge; Length: 11.3 m; Width: 4 m,2008,FRP,10.6,N/A,9.4,2.3,OMA*
+61,FRP footbridges,Tsukuba Bridge [40],Japan,A single-span bridge; Length: 10.8 m,2008,FRP,10.1,N/A,8.1,2.6,OMA*
+62,FRP footbridges,Prato Bridge,Italy,"A truss bridge; Length: 25 m, Width: 2.5–3.6 m; Weight: 8 t",2008,FRP,25,N/A,7.5,2.6,OMA
+63,FRP footbridges,A Truss bridge [41],Japan,A pony truss footbridge; Length: 18.3 m; Width: 2.0 m,No earlier than 2008,FRP,17.8,N/A,6.4,1.2,OMA*
+64,FRP footbridges,Bradkirk Bridge [42],England,A two-span bridge; Length: 24 m; Width: Weight (each span) < 2 t,2009,FRP,12,N/A,17.4,2.7,OMA
+65,FRP footbridges,Dover Seawall Wellards Way,England,A two-span truss bridge; Length: 28,2017,FRP,14,2.675,15.1,1.4,IH
